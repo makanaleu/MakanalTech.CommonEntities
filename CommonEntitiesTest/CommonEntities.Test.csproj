@@ -4,6 +4,22 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <NeutralLanguage>en</NeutralLanguage>
+
+    <Authors>Kane McConnell</Authors>
+
+    <Company>Makánal Technológia és Szoftver Fejlesztés KFT</Company>
+
+    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+
+    <PackageProjectUrl>https://makanal.visualstudio.com/CommonEntities</PackageProjectUrl>
+
+    <PackageIconUrl />
+
+    <RepositoryUrl>https://github.com/makanaleu/CommonEntities</RepositoryUrl>
+
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
