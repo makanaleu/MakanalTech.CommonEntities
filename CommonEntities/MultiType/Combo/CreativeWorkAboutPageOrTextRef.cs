@@ -55,5 +55,10 @@ namespace CommonEntities.MultiType.Combo
         {
             AsTextRef = textRef;
         }
+
+        /// <summary>
+        /// CreativeWorkAboutPageOrTextRef.
+        /// </summary>
+        public CreativeWorkAboutPageOrTextRef() { }
     }
 }

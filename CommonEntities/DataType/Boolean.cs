@@ -40,5 +40,10 @@ namespace CommonEntities.DataType
         {
             AsBool = value.AsBool;
         }
+
+        /// <summary>
+        /// Boolean.
+        /// </summary>
+        public Boolean() : base() { }
     }
 }

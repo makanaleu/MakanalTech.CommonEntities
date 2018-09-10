@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsGeoShape = geoShape;
         }
+
+        /// <summary>
+        /// GeoCoordinatesOrGeoShape.
+        /// </summary>
+        public GeoCoordinatesOrGeoShape() { }
     }
 }

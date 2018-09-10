@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsPlace = place;
         }
+
+        /// <summary>
+        /// ItemListOrPlace.
+        /// </summary>
+        public ItemListOrPlace() { }
     }
 }

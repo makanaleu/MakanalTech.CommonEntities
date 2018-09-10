@@ -32,8 +32,11 @@ namespace CommonEntities.MultiType.Alt
         /// ItemListOrderTypeOrText as a string.
         /// </summary>
         /// <param name="text">ItemListOrderTypeOrText as a string.</param>
-        public ItemListOrderTypeOrText(string text) : base(text)
-        {
-        }
+        public ItemListOrderTypeOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// ItemListOrderTypeOrText.
+        /// </summary>
+        public ItemListOrderTypeOrText() { }
     }
 }

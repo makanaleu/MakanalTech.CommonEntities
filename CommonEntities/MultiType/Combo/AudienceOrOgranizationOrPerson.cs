@@ -56,5 +56,10 @@ namespace CommonEntities.MultiType.Combo
         {
             AsPerson = person;
         }
+
+        /// <summary>
+        /// AudienceOrOgranizationOrPerson.
+        /// </summary>
+        public AudienceOrOgranizationOrPerson() { }
     }
 }

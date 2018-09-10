@@ -72,5 +72,10 @@ namespace CommonEntities.MultiType.Combo
         {
             AsPerson = person;
         }
+
+        /// <summary>
+        /// Recipient.
+        /// </summary>
+        public Recipient() { }
     }
 }

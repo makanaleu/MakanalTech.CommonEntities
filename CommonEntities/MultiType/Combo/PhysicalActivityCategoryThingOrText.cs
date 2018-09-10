@@ -50,8 +50,11 @@ namespace CommonEntities.MultiType.Combo
         /// </summary>
         /// <param name="text">PhysicalActivityCategoryThingOrText as Text.</param>
         public PhysicalActivityCategoryThingOrText(Text text) 
-            : base (text.AsText)
-        {
-        }
+            : base (text.AsText) { }
+
+        /// <summary>
+        /// PhysicalActivityCategoryThingOrText.
+        /// </summary>
+        public PhysicalActivityCategoryThingOrText() : base() { }
     }
 }

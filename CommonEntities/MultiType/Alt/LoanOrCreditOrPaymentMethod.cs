@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsPaymentMethod = paymentMethod;
         }
+
+        /// <summary>
+        /// LoanOrCreditOrPaymentMethod.
+        /// </summary>
+        public LoanOrCreditOrPaymentMethod() { }
     }
 }

@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsProduct = product;
         }
+
+        /// <summary>
+        /// OwnershipInfoOrProduct.
+        /// </summary>
+        public OwnershipInfoOrProduct() { }
     }
 }

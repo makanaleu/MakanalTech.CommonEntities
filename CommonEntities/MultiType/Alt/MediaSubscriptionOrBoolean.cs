@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Alt
         /// MediaSubscriptionOrBoolean as a boolean.
         /// </summary>
         /// <param name="value">MediaSubscriptionOrBoolean as a boolean.</param>
-        public MediaSubscriptionOrBoolean(Boolean value) : base(value)
-        {
-        }
+        public MediaSubscriptionOrBoolean(Boolean value) : base(value) { }
+
+        /// <summary>
+        /// MediaSubscriptionOrBoolean.
+        /// </summary>
+        public MediaSubscriptionOrBoolean() { }
     }
 }

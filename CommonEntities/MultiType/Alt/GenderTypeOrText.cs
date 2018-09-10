@@ -31,8 +31,11 @@ namespace CommonEntities.MultiType.Alt
         /// GenderTypeOrText as string.
         /// </summary>
         /// <param name="text">GenderTypeOrText as string.</param>
-        public GenderTypeOrText(string text) : base(text)
-        {
-        }
+        public GenderTypeOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// GenderTypeOrText.
+        /// </summary>
+        public GenderTypeOrText() : base() { }
     }
 }

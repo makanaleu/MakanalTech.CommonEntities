@@ -16,8 +16,11 @@ namespace CommonEntities.DataType
         /// Text representing an XPath (typically but not necessarily version
         /// 1.0).
         /// </param>
-        public XPathType(Text text) : base(text.AsText)
-        {
-        }
+        public XPathType(Text text) : base(text.AsText) { }
+
+        /// <summary>
+        /// XPathType.
+        /// </summary>
+        public XPathType() : base() { }
     }
 }

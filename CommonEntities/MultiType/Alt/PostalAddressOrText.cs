@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Alt
         /// PostalAddressOrText as a Text (string).
         /// </summary>
         /// <param name="text">PostalAddressOrText as a Text (string).</param>
-        public PostalAddressOrText(string text) : base(text)
-        {
-        }
+        public PostalAddressOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// PostalAddressOrText.
+        /// </summary>
+        public PostalAddressOrText() { }
     }
 }

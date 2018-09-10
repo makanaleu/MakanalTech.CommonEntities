@@ -38,5 +38,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsPerson = person;
         }
+
+        /// <summary>
+        /// OrganizationOrPerson.
+        /// </summary>
+        public OrganizationOrPerson() { }
     }
 }

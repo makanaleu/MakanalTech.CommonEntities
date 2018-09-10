@@ -29,8 +29,11 @@ namespace CommonEntities.MultiType.Alt
         /// LanguageOrText as a Text (string).
         /// </summary>
         /// <param name="text">LanguageOrText as a Text (string).</param>
-        public LanguageOrText(string text) : base(text)
-        {
-        }
+        public LanguageOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// LanguageOrText.
+        /// </summary>
+        public LanguageOrText() : base() { }
     }
 }

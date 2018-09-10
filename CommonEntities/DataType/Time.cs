@@ -17,8 +17,11 @@ namespace CommonEntities.DataType
         /// Data type: Time 
         /// </summary>
         /// <param name="time">Data type: Time</param>
-        public Time(string time): base(time)
-        {
-        }
+        public Time(string time): base(time) { }
+
+        /// <summary>
+        /// Time.
+        /// </summary>
+        public Time() : base() { }
     }
 }

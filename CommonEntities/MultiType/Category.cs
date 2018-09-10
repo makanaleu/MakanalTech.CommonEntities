@@ -47,8 +47,11 @@ namespace CommonEntities.MultiType
         /// Category as Text (string).
         /// </summary>
         /// <param name="text">Category as Text (string).</param>
-        public Category(string text) : base(text)
-        {
-        }
+        public Category(string text) : base(text) { }
+
+        /// <summary>
+        /// Category.
+        /// </summary>
+        public Category() : base() { }
     }
 }

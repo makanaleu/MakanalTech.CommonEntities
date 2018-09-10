@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsService = service;
         }
+
+        /// <summary>
+        /// ProductOrService.
+        /// </summary>
+        public ProductOrService() { }
     }
 }

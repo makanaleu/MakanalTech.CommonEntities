@@ -16,5 +16,10 @@ namespace CommonEntities.DataType
             : base(dateTime.ToString("yyyy-MM-dd"))
         {
         }
+
+        /// <summary>
+        /// Date.
+        /// </summary>
+        public Date() : base() { }
     }
 }

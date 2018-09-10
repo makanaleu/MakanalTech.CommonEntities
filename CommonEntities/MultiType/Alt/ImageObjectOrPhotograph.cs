@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsPhotograph = photograh;
         }
+
+        /// <summary>
+        /// ImageObjectOrPhotograph.
+        /// </summary>
+        public ImageObjectOrPhotograph() { }
     }
 }

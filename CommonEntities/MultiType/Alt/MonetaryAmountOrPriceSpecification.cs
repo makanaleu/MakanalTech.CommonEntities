@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsPriceSpecification = priceSpecification;
         }
+
+        /// <summary>
+        /// MonetaryAmountOrPriceSpecification.
+        /// </summary>
+        public MonetaryAmountOrPriceSpecification() { }
     }
 }

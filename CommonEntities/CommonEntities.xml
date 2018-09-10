@@ -6544,6 +6544,11 @@
             </summary>
             <param name="value">Boolean as Boolean</param>
         </member>
+        <member name="M:CommonEntities.DataType.Boolean.#ctor">
+            <summary>
+            Boolean.
+            </summary>
+        </member>
         <member name="T:CommonEntities.DataType.CssSelectorType">
             <summary>
             Text representing a CSS selector.
@@ -6555,6 +6560,11 @@
             </summary>
             <param name="text">Text representing a CSS selector.</param>
         </member>
+        <member name="M:CommonEntities.DataType.CssSelectorType.#ctor">
+            <summary>
+            CssSelectorType.
+            </summary>
+        </member>
         <member name="T:CommonEntities.DataType.Date">
             <summary>
             A date value in ISO 8601 date format. http://en.wikipedia.org/wiki/ISO_8601
@@ -6565,6 +6575,11 @@
             A date value in ISO 8601 date format.
             </summary>
             <param name="dateTime">DateTime object.</param>
+        </member>
+        <member name="M:CommonEntities.DataType.Date.#ctor">
+            <summary>
+            Date.
+            </summary>
         </member>
         <member name="T:CommonEntities.DataType.DateTime">
             <summary>
@@ -6584,6 +6599,11 @@
             </summary>
             <param name="dateTime">DateTime object.</param>
         </member>
+        <member name="M:CommonEntities.DataType.DateTime.#ctor">
+            <summary>
+            DateTime.
+            </summary>
+        </member>
         <member name="T:CommonEntities.DataType.Float">
             <summary>
             Data type: Floating number.
@@ -6595,6 +6615,11 @@
             </summary>
             <param name="number">Data type: Floating number.</param>
         </member>
+        <member name="M:CommonEntities.DataType.Float.#ctor">
+            <summary>
+            Float.
+            </summary>
+        </member>
         <member name="T:CommonEntities.DataType.Integer">
             <summary>
             Data type: Integer.
@@ -6605,6 +6630,11 @@
             Data type: Integer.
             </summary>
             <param name="number">Data type: Integer.</param>
+        </member>
+        <member name="M:CommonEntities.DataType.Integer.#ctor">
+            <summary>
+            Integer.
+            </summary>
         </member>
         <member name="T:CommonEntities.DataType.Number">
             <summary>
@@ -6646,6 +6676,11 @@
             </summary>
             <param name="number">Data type: Number.</param>
         </member>
+        <member name="M:CommonEntities.DataType.Number.#ctor">
+            <summary>
+            Number.
+            </summary>
+        </member>
         <member name="T:CommonEntities.DataType.Text">
             <summary>
             Data type: Text.
@@ -6661,6 +6696,11 @@
             Data type: Text
             </summary>
             <param name="text">Data type: Text</param>
+        </member>
+        <member name="M:CommonEntities.DataType.Text.#ctor">
+            <summary>
+            Text.
+            </summary>
         </member>
         <member name="T:CommonEntities.DataType.Time">
             <summary>
@@ -6678,6 +6718,11 @@
             </summary>
             <param name="time">Data type: Time</param>
         </member>
+        <member name="M:CommonEntities.DataType.Time.#ctor">
+            <summary>
+            Time.
+            </summary>
+        </member>
         <member name="T:CommonEntities.DataType.URL">
             <summary>
             Data type: URL
@@ -6688,6 +6733,11 @@
             Data type: URL
             </summary>
             <param name="url">Data type: URL</param>
+        </member>
+        <member name="M:CommonEntities.DataType.URL.#ctor">
+            <summary>
+            URL.
+            </summary>
         </member>
         <member name="T:CommonEntities.DataType.XPathType">
             <summary>
@@ -6703,6 +6753,11 @@
             Text representing an XPath (typically but not necessarily version
             1.0).
             </param>
+        </member>
+        <member name="M:CommonEntities.DataType.XPathType.#ctor">
+            <summary>
+            XPathType.
+            </summary>
         </member>
         <member name="T:CommonEntities.Health_Lifesci.Intangible.Enumeration.PhysicalActivityCategory">
             <summary>
@@ -6790,6 +6845,11 @@
             </summary>
             <param name="textRef">CorrectionCommentOrTextRef as a TextRef.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.AltRef.CorrectionCommentOrTextRef.#ctor">
+            <summary>
+            CorrectionCommentOrTextRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.AltRef.CreativeWorkOrProductRef">
             <summary>
             CreativeWorkProductOrURL MultiType accepts either CreativeWork, Product or URL.
@@ -6828,6 +6888,11 @@
             </summary>
             <param name="url">CreativeWorkProductOrURL as a URL.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.AltRef.CreativeWorkOrProductRef.#ctor">
+            <summary>
+            CreativeWorkOrProductRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.AltRef.ProductOrTextRef">
             <summary>
             ProductTextOrUrl MultiType accepts Product or TextRef.
@@ -6854,6 +6919,11 @@
             ProductTextOrUrl as a TextRef.
             </summary>
             <param name="textRef">ProductTextOrUrl as a TextRef.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.AltRef.ProductOrTextRef.#ctor">
+            <summary>
+            ProductOrTextRef.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.AltRef.PropertyValueOrTextRef">
             <summary>
@@ -6883,6 +6953,11 @@
             </summary>
             <param name="textRef">PropertyValueOrTextRef as a TextRef.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.AltRef.PropertyValueOrTextRef.#ctor">
+            <summary>
+            PropertyValueOrTextRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.AltRef.ThingOrTextRef">
             <summary>
             ThingOrTextRef MultiType accepts either Thing or TextRef.
@@ -6909,6 +6984,11 @@
             ThingOrTextRef as a TextRef.
             </summary>
             <param name="textRef">ThingOrTextRef as a TextRef.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.AltRef.ThingOrTextRef.#ctor">
+            <summary>
+            ThingOrTextRef.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.AnswerOrItemList">
             <summary>
@@ -6938,6 +7018,11 @@
             </summary>
             <param name="itemList">BrandOrOrganization as a Brand.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.AnswerOrItemList.#ctor">
+            <summary>
+            AnswerOrItemList.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.BrandOrOrganization">
             <summary>
             BrandOrOrganization MultiType accepts either Brand or Organization.
@@ -6965,6 +7050,11 @@
             </summary>
             <param name="organization">BrandOrOrganization as an Organization.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.BrandOrOrganization.#ctor">
+            <summary>
+            BrandOrOrganization.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.BreadcrumbListOrText">
             <summary>
             BreadcrumbListOrText MultiType accepts either a Breadcrumb List or string.
@@ -6987,6 +7077,11 @@
             BreadcrumbListOrText as string.
             </summary>
             <param name="text">BreadcrumbListOrText as string.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.BreadcrumbListOrText.#ctor">
+            <summary>
+            BreadcrumbListOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.ContactPointOrPlace">
             <summary>
@@ -7015,6 +7110,11 @@
             </summary>
             <param name="place">ContactPointOrPlace as a Place.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.ContactPointOrPlace.#ctor">
+            <summary>
+            ContactPointOrPlace.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.CountryOrText">
             <summary>
             CountryOrText MultiType accepts a Country or Text string.
@@ -7037,6 +7137,11 @@
             CountryOrText as a Text.
             </summary>
             <param name="country">CountryOrText as a Text.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.CountryOrText.#ctor">
+            <summary>
+            CountryOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.CreativeWorkOrEvent">
             <summary>
@@ -7065,6 +7170,11 @@
             </summary>
             <param name="eventObject">CreativeWorkOrEvent as an Event.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.CreativeWorkOrEvent.#ctor">
+            <summary>
+            CreativeWorkOrEvent.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.CreativeWorkOrText">
             <summary>
             CreativeWorkOrText MultiType accepts either CreativeWork or string.
@@ -7086,6 +7196,11 @@
             CreativeWorkOrText as a Text (string).
             </summary>
             <param name="text">CreativeWorkOrText as a Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.CreativeWorkOrText.#ctor">
+            <summary>
+            CreativeWorkOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.CreativeWorkOrTrip">
             <summary>
@@ -7114,6 +7229,11 @@
             </summary>
             <param name="trip">CreativeWorkOrTrip as a Trip.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.CreativeWorkOrTrip.#ctor">
+            <summary>
+            CreativeWorkOrTrip.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.GenderTypeOrText">
             <summary>
             GenderTypeOrText MultiType accepts GenderType or string.
@@ -7135,6 +7255,11 @@
             GenderTypeOrText as string.
             </summary>
             <param name="text">GenderTypeOrText as string.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.GenderTypeOrText.#ctor">
+            <summary>
+            GenderTypeOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.GeoCoordinatesOrGeoShape">
             <summary>
@@ -7164,6 +7289,11 @@
             </summary>
             <param name="geoShape">GeoCoordinatesOrGeoShape as a GeoShape.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.GeoCoordinatesOrGeoShape.#ctor">
+            <summary>
+            GeoCoordinatesOrGeoShape.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.GeospatialGeometryOrPlace">
             <summary>
             GeospatialGeometryOrPlace MultiType accepts either GeospatialGeometry or Place.
@@ -7191,6 +7321,11 @@
             GeospatialGeometryOrPlace as a Place.
             </summary>
             <param name="place">GeospatialGeometryOrPlace as a Place.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.GeospatialGeometryOrPlace.#ctor">
+            <summary>
+            GeospatialGeometryOrPlace.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.ImageObjectOrPhotograph">
             <summary>
@@ -7220,6 +7355,11 @@
             </summary>
             <param name="photograh">ImageObjectOrPhotograph as a Photograh.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.ImageObjectOrPhotograph.#ctor">
+            <summary>
+            ImageObjectOrPhotograph.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.ItemListOrderTypeOrText">
             <summary>
             ItemListOrderTypeOrText MultiType accepts either an ItemListOrderType or string.
@@ -7242,6 +7382,11 @@
             ItemListOrderTypeOrText as a string.
             </summary>
             <param name="text">ItemListOrderTypeOrText as a string.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.ItemListOrderTypeOrText.#ctor">
+            <summary>
+            ItemListOrderTypeOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.ItemListOrPlace">
             <summary>
@@ -7271,6 +7416,11 @@
             </summary>
             <param name="place">ItemListOrPlace as a Place.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.ItemListOrPlace.#ctor">
+            <summary>
+            ItemListOrPlace.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.LanguageOrText">
             <summary>
             LanguageOrText MultiType accepts either Laguage or string.
@@ -7292,6 +7442,11 @@
             LanguageOrText as a Text (string).
             </summary>
             <param name="text">LanguageOrText as a Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.LanguageOrText.#ctor">
+            <summary>
+            LanguageOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.LoanOrCreditOrPaymentMethod">
             <summary>
@@ -7321,6 +7476,11 @@
             </summary>
             <param name="paymentMethod">LoanOrCreditOrPaymentMethod as a PaymentMethod.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.LoanOrCreditOrPaymentMethod.#ctor">
+            <summary>
+            LoanOrCreditOrPaymentMethod.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.MediaSubscriptionOrBoolean">
             <summary>
             MediaSubscriptionOrBoolean MultiType accepts either a MediaSubscription or Boolean.
@@ -7344,6 +7504,11 @@
             </summary>
             <param name="value">MediaSubscriptionOrBoolean as a boolean.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.MediaSubscriptionOrBoolean.#ctor">
+            <summary>
+            MediaSubscriptionOrBoolean.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.MonetaryAmountOrNumber">
             <summary>
             MonetaryAmountOrNumber MultiType accepts a MonetaryAmount or Number.
@@ -7366,6 +7531,11 @@
             MonetaryAmountOrNumber as a Number.
             </summary>
             <param name="number">MonetaryAmountOrNumber as a Number.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.MonetaryAmountOrNumber.#ctor">
+            <summary>
+            MonetaryAmountOrNumber.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.MonetaryAmountOrPriceSpecification">
             <summary>
@@ -7394,6 +7564,11 @@
             </summary>
             <param name="priceSpecification">MonetaryAmountOrPriceSpecification as a PriceSpecification.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.MonetaryAmountOrPriceSpecification.#ctor">
+            <summary>
+            MonetaryAmountOrPriceSpecification.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.MusicGroupOrPerson">
             <summary>
             MusicGroupOrPerson MultiType accepts either MusicGroup or Person.
@@ -7420,6 +7595,11 @@
             MusicGroupOrPerson as a Person.
             </summary>
             <param name="person">MusicGroupOrPerson as a Person.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.MusicGroupOrPerson.#ctor">
+            <summary>
+            MusicGroupOrPerson.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.MusicRecordingOrItemList">
             <summary>
@@ -7449,6 +7629,11 @@
             </summary>
             <param name="itemList">MusicRecordingOrItemList as a ItemList.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.MusicRecordingOrItemList.#ctor">
+            <summary>
+            MusicRecordingOrItemList.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.OrganizationOrEducationalOrganization">
             <summary>
             OrganizationOrEducationalOrganization MultiType accepts Organization or EducationalOrganization.
@@ -7475,6 +7660,11 @@
             OrganizationOrEducationalOrganization as an EducationalOrganization.
             </summary>
             <param name="educationalOrganization">OrganizationOrEducationalOrganization as an EducationalOrganization.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.OrganizationOrEducationalOrganization.#ctor">
+            <summary>
+            OrganizationOrEducationalOrganization.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.OrganizationOrPerson">
             <summary>
@@ -7503,6 +7693,11 @@
             </summary>
             <param name="person">OrganizationOrPerson as a Person.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.OrganizationOrPerson.#ctor">
+            <summary>
+            OrganizationOrPerson.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.OrganizationOrProgramMembership">
             <summary>
             OrganizationOrProgramMembership MultiType accepts Organization or ProgramMembership.
@@ -7529,6 +7724,11 @@
             OrganizationOrProgramMembership as a ProgramMembership.
             </summary>
             <param name="programMembership">OrganizationOrProgramMembership as a ProgramMembership.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.OrganizationOrProgramMembership.#ctor">
+            <summary>
+            OrganizationOrProgramMembership.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.OwnershipInfoOrProduct">
             <summary>
@@ -7557,6 +7757,11 @@
             </summary>
             <param name="product">OwnershipInfoOrProduct as a Product.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.OwnershipInfoOrProduct.#ctor">
+            <summary>
+            OwnershipInfoOrProduct.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.PostalAddressOrText">
             <summary>
             PostalAddressOrText MultiType accepts Postal Address or Text (string).
@@ -7578,6 +7783,11 @@
             PostalAddressOrText as a Text (string).
             </summary>
             <param name="text">PostalAddressOrText as a Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.PostalAddressOrText.#ctor">
+            <summary>
+            PostalAddressOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.ProductModelOrText">
             <summary>
@@ -7601,6 +7811,11 @@
             ProductModelOrText as a Text.
             </summary>
             <param name="text">ProductModelOrText as a Text.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.ProductModelOrText.#ctor">
+            <summary>
+            ProductModelOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.ProductOrService">
             <summary>
@@ -7629,6 +7844,11 @@
             </summary>
             <param name="service">ProductOrService as a Service.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.ProductOrService.#ctor">
+            <summary>
+            ProductOrService.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.ProductOrText">
             <summary>
             ProductOrText MultiType accepts Product or Text.
@@ -7650,6 +7870,11 @@
             ProductOrText as Text.
             </summary>
             <param name="text">ProductOrText as Text.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.ProductOrText.#ctor">
+            <summary>
+            ProductOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.PropertyValueOrText">
             <summary>
@@ -7673,6 +7898,11 @@
             PropertyValueOrText as a Text.
             </summary>
             <param name="text">PropertyValueOrText as a Text.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.PropertyValueOrText.#ctor">
+            <summary>
+            PropertyValueOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.QuantitativeValueOrDistance">
             <summary>
@@ -7702,6 +7932,11 @@
             </summary>
             <param name="distance">QuantitativeValueOrDistance as a Distance.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.QuantitativeValueOrDistance.#ctor">
+            <summary>
+            QuantitativeValueOrDistance.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.QuantitativeValueOrNumber">
             <summary>
             QuantitativeValueOrNumber MultiType accepts QuantitativeValue or Number.
@@ -7724,6 +7959,11 @@
             </summary>
             <param name="number">QuantitativeValueOrNumber as a QuantitativeValue.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.QuantitativeValueOrNumber.#ctor">
+            <summary>
+            QuantitativeValueOrNumber.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.RatingOrText">
             <summary>
             RatingOrText MultiType accepts either Rating or Text (string).
@@ -7745,6 +7985,11 @@
             RatingOrText as a Text (string).
             </summary>
             <param name="text">RatingOrText as a Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.RatingOrText.#ctor">
+            <summary>
+            RatingOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.SoftwareApplicationOrWebsite">
             <summary>
@@ -7775,6 +8020,11 @@
             </summary>
             <param name="webSite">SoftwareApplicationOrWebsite as a WebSite.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Alt.SoftwareApplicationOrWebsite.#ctor">
+            <summary>
+            SoftwareApplicationOrWebsite.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Alt.TextOrInteger">
             <summary>
             TextOrInteger MultiType accepts Text or Integer DataTypes.
@@ -7791,6 +8041,11 @@
             TextOrInteger as an integer.
             </summary>
             <param name="number">TextOrInteger as an integer.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.TextOrInteger.#ctor">
+            <summary>
+            TextOrInteger.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Alt.ThingOrText">
             <summary>
@@ -7814,6 +8069,11 @@
             ThingOrText as a Text.
             </summary>
             <param name="text">ThingOrText as a Text.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Alt.ThingOrText.#ctor">
+            <summary>
+            ThingOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Area">
             <summary>
@@ -7859,6 +8119,11 @@
             </summary>
             <param name="area">Area as Text (string).</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Area.#ctor">
+            <summary>
+            Area.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Category">
             <summary>
             Category MultiType accepts PhysicalActivityCategory, Thing, or Text (string).
@@ -7891,6 +8156,11 @@
             Category as Text (string).
             </summary>
             <param name="text">Category as Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Category.#ctor">
+            <summary>
+            Category.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Combo.AudienceOrOgranizationOrPerson">
             <summary>
@@ -7932,6 +8202,11 @@
             </summary>
             <param name="person">AudienceOrOgranizationOrPerson as a Person.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Combo.AudienceOrOgranizationOrPerson.#ctor">
+            <summary>
+            AudienceOrOgranizationOrPerson.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Combo.ContactPointOrOrganizationOrPerson">
             <summary>
             ContactPointOrOrganizationOrPerson MultiType accepts ContactPoint,
@@ -7972,6 +8247,11 @@
             </summary>
             <param name="person">ContactPointOrOrganizationOrPerson as a Person.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Combo.ContactPointOrOrganizationOrPerson.#ctor">
+            <summary>
+            ContactPointOrOrganizationOrPerson.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Combo.CreativeWorkAboutPageOrTextRef">
             <summary>
             CreativeWorkAboutPageOrTextRef MultiType accepts CreativeWork, AboutPage, or TextRef.
@@ -8011,6 +8291,11 @@
             </summary>
             <param name="textRef">CreativeWorkAboutPageOrTextRef as TextRef.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Combo.CreativeWorkAboutPageOrTextRef.#ctor">
+            <summary>
+            CreativeWorkAboutPageOrTextRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Combo.DataFeedItemThingOrText">
             <summary>
             DataFeedItemThingOrText MultiType accepts DataFeedItem, Thing, or Text.
@@ -8044,6 +8329,11 @@
             DataFeedItemThingOrText as Text.
             </summary>
             <param name="text">DataFeedItemThingOrText as Text.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Combo.DataFeedItemThingOrText.#ctor">
+            <summary>
+            DataFeedItemThingOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Combo.GeoShapePlaceOrText">
             <summary>
@@ -8079,6 +8369,11 @@
             </summary>
             <param name="text">GeoShapePlaceOrText as Text (string).</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Combo.GeoShapePlaceOrText.#ctor">
+            <summary>
+            GeoShapePlaceOrText.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Combo.ListItemThingOrText">
             <summary>
             ListItemThingOrText MultiType accepts a ListItem, Thing, or Text (string).
@@ -8112,6 +8407,11 @@
             ListItemThingOrText as Text (string).
             </summary>
             <param name="text">ListItemThingOrText as Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Combo.ListItemThingOrText.#ctor">
+            <summary>
+            ListItemThingOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Combo.PhysicalActivityCategoryThingOrText">
             <summary>
@@ -8147,6 +8447,11 @@
             </summary>
             <param name="text">PhysicalActivityCategoryThingOrText as Text.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Combo.PhysicalActivityCategoryThingOrText.#ctor">
+            <summary>
+            PhysicalActivityCategoryThingOrText.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Combo.PlacePostalAddressOrText">
             <summary>
             PlacePostalAddressOrText MultiType accepts Place, PostalAddress, or Text (string).
@@ -8179,6 +8484,11 @@
             PostalAddressOrText as a Text (string).
             </summary>
             <param name="text">PostalAddressOrText as a Text (string).</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Combo.PlacePostalAddressOrText.#ctor">
+            <summary>
+            PlacePostalAddressOrText.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Combo.Recipient">
             <summary>
@@ -8231,6 +8541,11 @@
             </summary>
             <param name="person">Recipient as an Person.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Combo.Recipient.#ctor">
+            <summary>
+            Recipient.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Ref.ArticleRef">
             <summary>
             ArticleRef MultiType accepts either an Article or URL.
@@ -8259,6 +8574,11 @@
             </summary>
             <param name="url">ArticleRef as a URL.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Ref.ArticleRef.#ctor">
+            <summary>
+            ArticleRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Ref.CreativeWorkRef">
             <summary>
             CreativeWorkRef MultiType accepts CreativeWork or URL.
@@ -8285,6 +8605,11 @@
             CreativeWorkRef as a URL.
             </summary>
             <param name="url">CreativeWorkRef as a URL.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Ref.CreativeWorkRef.#ctor">
+            <summary>
+            CreativeWorkRef.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Ref.ImageObjectRef">
             <summary>
@@ -8313,6 +8638,11 @@
             </summary>
             <param name="url">Image as a URL.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Ref.ImageObjectRef.#ctor">
+            <summary>
+            ImageObjectRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Ref.MapRef">
             <summary>
             MapRef MultiType accepts a Map or URL.
@@ -8335,6 +8665,11 @@
             MapRef as a URL.
             </summary>
             <param name="url">MapRef as a URL.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Ref.MapRef.#ctor">
+            <summary>
+            MapRef.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.Ref.PersonRef">
             <summary>
@@ -8363,6 +8698,11 @@
             </summary>
             <param name="url">PersonRef as a URL.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Ref.PersonRef.#ctor">
+            <summary>
+            PersonRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Ref.SpeakableSpecificationRef">
             <summary>
             ArticleRef MultiType accepts either an Article or URL.
@@ -8386,6 +8726,11 @@
             </summary>
             <param name="url">SpeakableSpecificationRef as a URL.</param>
         </member>
+        <member name="M:CommonEntities.MultiType.Ref.SpeakableSpecificationRef.#ctor">
+            <summary>
+            SpeakableSpecificationRef.
+            </summary>
+        </member>
         <member name="T:CommonEntities.MultiType.Ref.TextRef">
             <summary>
             TextRef MultiType accepts Text (string) or URL.
@@ -8407,6 +8752,11 @@
             TextRef as a URL.
             </summary>
             <param name="url">TextRef as a URL.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.Ref.TextRef.#ctor">
+            <summary>
+            TextRef.
+            </summary>
         </member>
         <member name="T:CommonEntities.MultiType.TemporalCoverage">
             <summary>
@@ -8450,6 +8800,11 @@
             TemporalCoverage as a URL.
             </summary>
             <param name="url">TemporalCoverage as a URL.</param>
+        </member>
+        <member name="M:CommonEntities.MultiType.TemporalCoverage.#ctor">
+            <summary>
+            TemporalCoverage.
+            </summary>
         </member>
         <member name="T:CommonEntities.Pending.Article">
             <summary>

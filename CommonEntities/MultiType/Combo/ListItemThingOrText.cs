@@ -47,8 +47,11 @@ namespace CommonEntities.MultiType.Combo
         /// ListItemThingOrText as Text (string).
         /// </summary>
         /// <param name="text">ListItemThingOrText as Text (string).</param>
-        public ListItemThingOrText(string text) : base(text)
-        {
-        }
+        public ListItemThingOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// ListItemThingOrText.
+        /// </summary>
+        public ListItemThingOrText() : base() { }
     }
 }

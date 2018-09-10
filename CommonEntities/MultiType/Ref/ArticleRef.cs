@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Ref
         {
             AsUrl = url;
         }
+
+        /// <summary>
+        /// ArticleRef.
+        /// </summary>
+        public ArticleRef() { }
     }
 }

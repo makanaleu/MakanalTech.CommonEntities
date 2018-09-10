@@ -59,5 +59,10 @@ namespace CommonEntities.MultiType
         {
             AsUrl = url;
         }
+
+        /// <summary>
+        /// TemporalCoverage.
+        /// </summary>
+        public TemporalCoverage() : base() { }
     }
 }

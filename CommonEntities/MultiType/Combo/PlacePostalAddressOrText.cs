@@ -46,8 +46,11 @@ namespace CommonEntities.MultiType.Combo
         /// PostalAddressOrText as a Text (string).
         /// </summary>
         /// <param name="text">PostalAddressOrText as a Text (string).</param>
-        public PlacePostalAddressOrText(string text) : base(text)
-        {
-        }
+        public PlacePostalAddressOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// PlacePostalAddressOrText.
+        /// </summary>
+        public PlacePostalAddressOrText() : base() { }
     }
 }

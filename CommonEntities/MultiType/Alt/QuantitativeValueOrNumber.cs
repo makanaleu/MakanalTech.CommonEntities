@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Alt
         /// QuantitativeValueOrNumber as a QuantitativeValue.
         /// </summary>
         /// <param name="number">QuantitativeValueOrNumber as a QuantitativeValue.</param>
-        public QuantitativeValueOrNumber(Number number) : base(number.AsText)
-        {
-        }
+        public QuantitativeValueOrNumber(Number number) : base(number.AsText) { }
+
+        /// <summary>
+        /// QuantitativeValueOrNumber.
+        /// </summary>
+        public QuantitativeValueOrNumber() : base() { }
     }
 }

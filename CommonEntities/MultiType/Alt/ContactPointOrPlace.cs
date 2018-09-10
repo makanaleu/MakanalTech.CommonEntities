@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsPlace = place;
         }
+
+        /// <summary>
+        /// ContactPointOrPlace.
+        /// </summary>
+        public ContactPointOrPlace() { }
     }
 }

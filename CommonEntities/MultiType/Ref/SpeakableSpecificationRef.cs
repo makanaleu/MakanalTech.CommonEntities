@@ -31,8 +31,11 @@ namespace CommonEntities.MultiType.Ref
         /// SpeakableSpecificationRef as a URL.
         /// </summary>
         /// <param name="url">SpeakableSpecificationRef as a URL.</param>
-        public SpeakableSpecificationRef(URL url) : base(url.AsText)
-        {
-        }
+        public SpeakableSpecificationRef(URL url) : base(url.AsText) { }
+
+        /// <summary>
+        /// SpeakableSpecificationRef.
+        /// </summary>
+        public SpeakableSpecificationRef() : base() { }
     }
 }

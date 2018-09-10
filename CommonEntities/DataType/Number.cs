@@ -61,5 +61,10 @@ namespace CommonEntities.DataType
             AsFloat = number.AsFloat;
             AsInteger = number.AsInteger;
         }
+
+        /// <summary>
+        /// Number.
+        /// </summary>
+        public Number(): base() { }
     }
 }
