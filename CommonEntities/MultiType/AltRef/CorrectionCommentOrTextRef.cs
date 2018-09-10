@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.AltRef
         {
             AsTextRef = textRef;
         }
+
+        /// <summary>
+        /// CorrectionCommentOrTextRef.
+        /// </summary>
+        public CorrectionCommentOrTextRef() { }
     }
 }

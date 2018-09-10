@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsItemList = itemList;
         }
+
+        /// <summary>
+        /// AnswerOrItemList.
+        /// </summary>
+        public AnswerOrItemList() { }
     }
 }

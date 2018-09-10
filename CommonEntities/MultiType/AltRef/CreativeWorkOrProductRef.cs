@@ -54,5 +54,10 @@ namespace CommonEntities.MultiType.AltRef
         {
             AsUrl = url;
         }
+
+        /// <summary>
+        /// CreativeWorkOrProductRef.
+        /// </summary>
+        public CreativeWorkOrProductRef() { }
     }
 }

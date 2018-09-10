@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Alt
         /// ThingOrText as a Text.
         /// </summary>
         /// <param name="text">ThingOrText as a Text.</param>
-        public ThingOrText(Text text) : base(text.AsText)
-        {
-        }
+        public ThingOrText(Text text) : base(text.AsText) { }
+
+        /// <summary>
+        /// ThingOrText.
+        /// </summary>
+        public ThingOrText() : base() { }
     }
 }

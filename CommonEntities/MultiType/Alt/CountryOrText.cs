@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Alt
         /// CountryOrText as a Text.
         /// </summary>
         /// <param name="country">CountryOrText as a Text.</param>
-        public CountryOrText(string country) : base(country)
-        {
-        }
+        public CountryOrText(string country) : base(country) { }
+
+        /// <summary>
+        /// CountryOrText.
+        /// </summary>
+        public CountryOrText() : base() { }
     }
 }

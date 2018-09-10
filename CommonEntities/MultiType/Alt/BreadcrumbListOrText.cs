@@ -31,8 +31,11 @@ namespace CommonEntities.MultiType.Alt
         /// BreadcrumbListOrText as string.
         /// </summary>
         /// <param name="text">BreadcrumbListOrText as string.</param>
-        public BreadcrumbListOrText(string text) : base(text)
-        {
-        }
+        public BreadcrumbListOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// BreadcrumbListOrText.
+        /// </summary>
+        public BreadcrumbListOrText() : base() { }
     }
 }

@@ -38,5 +38,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsEvent = eventObject;
         }
+
+        /// <summary>
+        /// CreativeWorkOrEvent.
+        /// </summary>
+        public CreativeWorkOrEvent() { }
     }
 }

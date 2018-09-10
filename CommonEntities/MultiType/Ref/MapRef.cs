@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Ref
         /// MapRef as a URL.
         /// </summary>
         /// <param name="url">MapRef as a URL.</param>
-        public MapRef(URL url) : base(url.AsText)
-        {
-        }
+        public MapRef(URL url) : base(url.AsText) { }
+
+        /// <summary>
+        /// MapRef.
+        /// </summary>
+        public MapRef() : base() { }
     }
 }

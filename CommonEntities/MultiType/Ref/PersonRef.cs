@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Ref
         {
             AsUrl = url;
         }
+
+        /// <summary>
+        /// PersonRef.
+        /// </summary>
+        public PersonRef() { }
     }
 }

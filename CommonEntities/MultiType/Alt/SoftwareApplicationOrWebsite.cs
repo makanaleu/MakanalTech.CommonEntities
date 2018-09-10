@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsWebSite = webSite;
         }
+
+        /// <summary>
+        /// SoftwareApplicationOrWebsite.
+        /// </summary>
+        public SoftwareApplicationOrWebsite() { }
     }
 }

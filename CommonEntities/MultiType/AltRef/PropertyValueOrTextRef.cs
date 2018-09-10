@@ -41,5 +41,9 @@ namespace CommonEntities.MultiType.AltRef
             AsTextRef = textRef;
         }
 
+        /// <summary>
+        /// PropertyValueOrTextRef.
+        /// </summary>
+        public PropertyValueOrTextRef() { }
     }
 }

@@ -12,8 +12,11 @@ namespace CommonEntities.DataType
         /// Data type: Floating number.
         /// </summary>
         /// <param name="number">Data type: Floating number.</param>
-        public Float(float number) : base(number)
-        {
-        }
+        public Float(float number) : base(number) { }
+
+        /// <summary>
+        /// Float.
+        /// </summary>
+        public Float() : base() { }
     }
 }

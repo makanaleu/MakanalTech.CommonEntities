@@ -32,5 +32,10 @@ namespace CommonEntities.MultiType.Ref
         {
             AsUrl = url;
         }
+
+        /// <summary>
+        /// TextRef.
+        /// </summary>
+        public TextRef() : base() { }
     }
 }

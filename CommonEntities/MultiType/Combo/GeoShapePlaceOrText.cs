@@ -47,8 +47,11 @@ namespace CommonEntities.MultiType.Combo
         /// GeoShapePlaceOrText as Text (string).
         /// </summary>
         /// <param name="text">GeoShapePlaceOrText as Text (string).</param>
-        public GeoShapePlaceOrText(string text) : base(text)
-        {
-        }
+        public GeoShapePlaceOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// GeoShapePlaceOrText.
+        /// </summary>
+        public GeoShapePlaceOrText() : base() { }
     }
 }

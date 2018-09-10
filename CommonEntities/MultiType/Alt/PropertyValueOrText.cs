@@ -31,8 +31,11 @@ namespace CommonEntities.MultiType.Alt
         /// PropertyValueOrText as a Text.
         /// </summary>
         /// <param name="text">PropertyValueOrText as a Text.</param>
-        public PropertyValueOrText(Text text) : base(text.AsText)
-        {
-        }
+        public PropertyValueOrText(Text text) : base(text.AsText) { }
+
+        /// <summary>
+        /// PropertyValueOrText.
+        /// </summary>
+        public PropertyValueOrText() : base() { }
     }
 }

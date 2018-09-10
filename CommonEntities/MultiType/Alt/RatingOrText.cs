@@ -29,8 +29,11 @@ namespace CommonEntities.MultiType.Alt
         /// RatingOrText as a Text (string).
         /// </summary>
         /// <param name="text">RatingOrText as a Text (string).</param>
-        public RatingOrText(string text) : base(text)
-        {
-        }
+        public RatingOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// RatingOrText.
+        /// </summary>
+        public RatingOrText() : base() { }
     }
 }

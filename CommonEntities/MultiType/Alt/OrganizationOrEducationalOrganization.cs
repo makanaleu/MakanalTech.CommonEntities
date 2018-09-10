@@ -38,5 +38,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsEducationalOrganization = educationalOrganization;
         }
+
+        /// <summary>
+        /// OrganizationOrEducationalOrganization.
+        /// </summary>
+        public OrganizationOrEducationalOrganization() { }
     }
 }

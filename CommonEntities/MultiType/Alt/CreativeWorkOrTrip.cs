@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsTrip = trip;
         }
+
+        /// <summary>
+        /// CreativeWorkOrTrip.
+        /// </summary>
+        public CreativeWorkOrTrip() { }
     }
 }

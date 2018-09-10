@@ -30,8 +30,11 @@ namespace CommonEntities.MultiType.Alt
         /// MonetaryAmountOrNumber as a Number.
         /// </summary>
         /// <param name="number">MonetaryAmountOrNumber as a Number.</param>
-        public MonetaryAmountOrNumber(Number number) : base(number)
-        {
-        }
+        public MonetaryAmountOrNumber(Number number) : base(number) { }
+
+        /// <summary>
+        /// MonetaryAmountOrNumber.
+        /// </summary>
+        public MonetaryAmountOrNumber() : base() { }
     }
 }

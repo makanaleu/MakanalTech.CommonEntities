@@ -24,5 +24,10 @@ namespace CommonEntities.DataType
         {
             AsDate = new Date(dateTime);
         }
+
+        /// <summary>
+        /// DateTime.
+        /// </summary>
+        public DateTime() : base() { }
     }
 }

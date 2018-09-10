@@ -13,8 +13,11 @@ namespace CommonEntities.DataType
         /// Data type: Integer.
         /// </summary>
         /// <param name="number">Data type: Integer.</param>
-        public Integer(int number) : base(number)
-        {
-        }
+        public Integer(int number) : base(number) { }
+
+        /// <summary>
+        /// Integer.
+        /// </summary>
+        public Integer() : base() { }
     }
 }

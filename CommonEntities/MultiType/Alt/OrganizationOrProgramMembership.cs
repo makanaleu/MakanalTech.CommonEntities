@@ -38,5 +38,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsProgramMembership = programMembership;
         }
+
+        /// <summary>
+        /// OrganizationOrProgramMembership.
+        /// </summary>
+        public OrganizationOrProgramMembership() { }
     }
 }

@@ -40,5 +40,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsDistance = distance;
         }
+
+        /// <summary>
+        /// QuantitativeValueOrDistance.
+        /// </summary>
+        public QuantitativeValueOrDistance() { }
     }
 }

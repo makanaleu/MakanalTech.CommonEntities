@@ -22,5 +22,10 @@ namespace CommonEntities.DataType
         {
             AsText = text;
         }
+
+        /// <summary>
+        /// Text.
+        /// </summary>
+        public Text() { }
     }
 }

@@ -29,8 +29,11 @@ namespace CommonEntities.MultiType.Alt
         /// ProductOrText as Text.
         /// </summary>
         /// <param name="text">ProductOrText as Text.</param>
-        public ProductOrText(Text text) : base(text.AsText)
-        {
-        }
+        public ProductOrText(Text text) : base(text.AsText) { }
+
+        /// <summary>
+        /// ProductOrText.
+        /// </summary>
+        public ProductOrText() : base() { }
     }
 }

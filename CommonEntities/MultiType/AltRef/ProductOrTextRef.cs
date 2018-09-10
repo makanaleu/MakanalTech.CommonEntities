@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.AltRef
         {
             AsTextRef = textRef;
         }
+
+        /// <summary>
+        /// ProductOrTextRef.
+        /// </summary>
+        public ProductOrTextRef() { }
     }
 }

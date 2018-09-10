@@ -39,5 +39,10 @@ namespace CommonEntities.MultiType.Alt
         {
             AsOrganization = organization;
         }
+
+        /// <summary>
+        /// BrandOrOrganization.
+        /// </summary>
+        public BrandOrOrganization() { }
     }
 }

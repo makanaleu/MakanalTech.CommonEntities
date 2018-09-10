@@ -47,8 +47,11 @@ namespace CommonEntities.MultiType.Combo
         /// DataFeedItemThingOrText as Text.
         /// </summary>
         /// <param name="text">DataFeedItemThingOrText as Text.</param>
-        public DataFeedItemThingOrText(Text text) : base(text.AsText)
-        {
-        }
+        public DataFeedItemThingOrText(Text text) : base(text.AsText) { }
+
+        /// <summary>
+        /// DataFeedItemThingOrText.
+        /// </summary>
+        public DataFeedItemThingOrText() : base() { }
     }
 }

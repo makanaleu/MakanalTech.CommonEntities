@@ -60,8 +60,11 @@ namespace CommonEntities.MultiType
         /// Area as Text (string).
         /// </summary>
         /// <param name="area">Area as Text (string).</param>
-        public Area(string area) : base(area)
-        {
-        }
+        public Area(string area) : base(area) { }
+
+        /// <summary>
+        /// Area.
+        /// </summary>
+        public Area() : base() { }
     }
 }

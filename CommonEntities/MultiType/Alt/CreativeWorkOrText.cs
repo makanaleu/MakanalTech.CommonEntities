@@ -29,8 +29,11 @@ namespace CommonEntities.MultiType.Alt
         /// CreativeWorkOrText as a Text (string).
         /// </summary>
         /// <param name="text">CreativeWorkOrText as a Text (string).</param>
-        public CreativeWorkOrText(string text) : base(text)
-        {
-        }
+        public CreativeWorkOrText(string text) : base(text) { }
+
+        /// <summary>
+        /// CreativeWorkOrText.
+        /// </summary>
+        public CreativeWorkOrText() : base() { }
     }
 }
