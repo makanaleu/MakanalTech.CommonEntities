@@ -9,9 +9,9 @@
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://makanal.visualstudio.com/CommonEntities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/makanaleu/CommonEntities</RepositoryUrl>
-    <Version>1.0.0-rc.7</Version>
-    <AssemblyVersion>1.0.0.7</AssemblyVersion>
-    <FileVersion>1.0.0.7</FileVersion>
+    <Version>1.0.0-rc.8</Version>
+    <AssemblyVersion>1.0.0.8</AssemblyVersion>
+    <FileVersion>1.0.0.8</FileVersion>
     <ApplicationIcon />
     <Win32Resource />
     <Description>.Net Standard class library based on Schema.org objects.</Description>
