@@ -11,7 +11,7 @@ namespace CommonEntities.DataType
         /// <summary>
         /// Text representing a CSS selector.
         /// </summary>
-        /// <param name="url">Text representing a CSS selector.</param>
+        /// <param name="text">Text representing a CSS selector.</param>
         public CssSelectorType(Text text) : base(text.AsText)
         {
         }

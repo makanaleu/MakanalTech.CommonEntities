@@ -45,7 +45,7 @@ namespace CommonEntities.MultiType
         /// TemporalCoverage as an ISO 8601 time interval string.
         /// </summary>
         /// <example>https://en.wikipedia.org/wiki/ISO_8601#Time_intervals</example>
-        /// <param name="value">TemporalCoverage as an ISO 8601 time interval string.</param>
+        /// <param name="text">TemporalCoverage as an ISO 8601 time interval string.</param>
         public TemporalCoverage(string text) : base(text)
         {
             AsTimePeriod = new Text(text);

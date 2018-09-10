@@ -15,27 +15,51 @@ namespace CommonEntities.Core.Intangible.Enumeration
     [DataContract(Name = "AccessibilityHazard", Namespace = "https://schema.org/accessibilityHazard")]
     public enum AccessibilityHazard
     {
+        /// <summary>
+        /// Flashing
+        /// </summary>
         [EnumMember(Value = "flashing")]
         Flashing = 10,
 
+        /// <summary>
+        /// NoFlashingHazard
+        /// </summary>
         [EnumMember(Value = "noFlashingHazard")]
         NoFlashingHazard = 20,
 
+        /// <summary>
+        /// MotionSimulation
+        /// </summary>
         [EnumMember(Value = "motionSimulation")]
         MotionSimulation = 30,
 
+        /// <summary>
+        /// NoMotionSimulationHazard
+        /// </summary>
         [EnumMember(Value = "noMotionSimulationHazard")]
         NoMotionSimulationHazard = 40,
 
+        /// <summary>
+        /// Sound
+        /// </summary>
         [EnumMember(Value = "sound")]
         Sound = 50,
 
+        /// <summary>
+        /// NoSoundHazard
+        /// </summary>
         [EnumMember(Value = "noSoundHazard")]
         NoSoundHazard = 60,
 
+        /// <summary>
+        /// Unknown
+        /// </summary>
         [EnumMember(Value = "unknown")]
         Unknown = 70,
 
+        /// <summary>
+        /// None
+        /// </summary>
         [EnumMember(Value = "none")]
         None = 90
     }

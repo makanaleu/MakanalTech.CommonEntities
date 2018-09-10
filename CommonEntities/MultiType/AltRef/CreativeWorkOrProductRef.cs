@@ -40,7 +40,7 @@ namespace CommonEntities.MultiType.AltRef
         /// <summary>
         /// CreativeWorkProductOrURL as a Product.
         /// </summary>
-        /// <param name="creativeWork">CreativeWorkProductOrURL as a Product.</param>
+        /// <param name="product">CreativeWorkProductOrURL as a Product.</param>
         public CreativeWorkOrProductRef(Product product)
         {
             AsProduct = product;
@@ -49,7 +49,7 @@ namespace CommonEntities.MultiType.AltRef
         /// <summary>
         /// CreativeWorkProductOrURL as a URL.
         /// </summary>
-        /// <param name="creativeWork">CreativeWorkProductOrURL as a URL.</param>
+        /// <param name="url">CreativeWorkProductOrURL as a URL.</param>
         public CreativeWorkOrProductRef(URL url)
         {
             AsUrl = url;

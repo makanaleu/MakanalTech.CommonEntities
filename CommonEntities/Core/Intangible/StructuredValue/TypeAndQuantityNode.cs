@@ -13,6 +13,9 @@ namespace CommonEntities.Core.Intangible.StructuredValue
     [DataContract(Name = "TypeAndQuantityNode", Namespace = "https://schema.org/TypeAndQuantityNode")]
     public class TypeAndQuantityNode : Thing
     {
+        /// <summary>
+        /// The default BusinessFunction is 'Sell'.
+        /// </summary>
         public TypeAndQuantityNode()
         {
             BusinessFunction = BusinessFunction.Sell;

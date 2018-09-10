@@ -104,7 +104,7 @@ namespace CommonEntities.Core
         public Date DissolutionDate { get; set; }
 
         /// <summary>
-        /// The Dun & Bradstreet DUNS number for identifying an organization or
+        /// The Dun &amp; Bradstreet DUNS number for identifying an organization or
         /// business person.
         /// </summary>
         /// <example>https://schema.org/duns</example>

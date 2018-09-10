@@ -34,7 +34,7 @@ namespace CommonEntities.MultiType.AltRef
         /// <summary>
         /// ProductTextOrUrl as a TextRef.
         /// </summary>
-        /// <param name="product">ProductTextOrUrl as a TextRef.</param>
+        /// <param name="textRef">ProductTextOrUrl as a TextRef.</param>
         public ProductOrTextRef(TextRef textRef)
         {
             AsTextRef = textRef;

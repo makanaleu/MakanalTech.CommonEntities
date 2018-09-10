@@ -8,12 +8,21 @@ namespace CommonEntities.Core.Intangible.Enumeration
     [DataContract(Name = "InteractivityType", Namespace = "https://schema.org/interactivityType")]
     public enum InteractivityType
     {
+        /// <summary>
+        /// Active
+        /// </summary>
         [EnumMember(Value = "active")]
         Active = 10,
 
+        /// <summary>
+        /// Expositive
+        /// </summary>
         [EnumMember(Value = "expositive")]
         Expositive = 20,
 
+        /// <summary>
+        /// Mixed
+        /// </summary>
         [EnumMember(Value = "mixed")]
         Mixed = 30
     }
