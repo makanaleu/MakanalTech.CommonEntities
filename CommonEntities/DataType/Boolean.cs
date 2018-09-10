@@ -26,7 +26,7 @@ namespace CommonEntities.DataType
         /// <summary>
         /// Boolean: True or False.
         /// </summary>
-        /// <param name="value">Boolean: True or False.</param>
+        /// <param name="text">Boolean: True or False.</param>
         public Boolean(string text) : base((text == "True") ? "True" : "False")
         {
             AsBool = (text == "True") ? true : false;

@@ -9,9 +9,15 @@ namespace CommonEntities.MultiType.Alt
     [DataContract(Name = "CreativeWorkOrEvent", Namespace = "CommonEntities.MultiType.Alt")]
     public class CreativeWorkOrEvent
     {
+        /// <summary>
+        /// CreativeWorkOrEvent as a CreativeWork.
+        /// </summary>
         [DataMember(Name = "asCreativeWork")]
         public CreativeWork AsCreativeWork;
 
+        /// <summary>
+        /// CreativeWorkOrEvent as an Event.
+        /// </summary>
         [DataMember(Name = "asEvent")]
         public Event AsEvent;
 

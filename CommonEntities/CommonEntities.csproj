@@ -9,11 +9,18 @@
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://makanal.visualstudio.com/CommonEntities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/makanaleu/CommonEntities</RepositoryUrl>
-    <Version>1.0.0-rc.3</Version>
-    <AssemblyVersion>1.0.0.3</AssemblyVersion>
-    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.0-rc.4</Version>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
     <ApplicationIcon />
     <Win32Resource />
+    <Description>.Net Standard class library based on Schema.org objects.</Description>
+    <Copyright></Copyright>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\kane\OneDrive - Makánal\Code\CommonEntities\CommonEntities\CommonEntities.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

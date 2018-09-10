@@ -160,9 +160,7 @@ namespace CommonEntities.Core
         /// See http://tools.ietf.org/html/bcp47.
         /// </remarks>
         /// <seealso cref="ContactPoint.AvailableLanguage"/>
-        /// <seealso cref="LodgingBusiness.AvailableLanguage"/>
         /// <seealso cref="ServiceChannel.AvailableLanguage"/>
-        /// <seealso cref="TouristAttraction.AvailableLanguage"/>
         /// <example>https://schema.org/inLanguage</example>
         [DataMember(Name = "inLanguage")]
         public LanguageOrText InLanguage { get; set; }
