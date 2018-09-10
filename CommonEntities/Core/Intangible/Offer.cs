@@ -69,7 +69,7 @@ namespace CommonEntities.Core.Intangible
         /// </summary>
         /// <example>https://schema.org/availability</example>
         [DataMember(Name = "availability")]
-        public ItemAvailability? Availability { get; set; }
+        public ItemAvailability Availability { get; set; }
 
         /// <summary>
         /// The place(s) from which the offer can be obtained (e.g. store 
@@ -84,7 +84,7 @@ namespace CommonEntities.Core.Intangible
         /// </summary>
         /// <example>https://schema.org/availableDeliveryMethod</example>
         [DataMember(Name = "availableDeliveryMethod")]
-        public DeliveryMethod? AvailableDeliveryMethod { get; set; }
+        public DeliveryMethod AvailableDeliveryMethod { get; set; }
 
         /// <summary>
         /// The business function (e.g. sell, lease, repair, dispose) of the 
@@ -93,7 +93,7 @@ namespace CommonEntities.Core.Intangible
         /// </summary>
         /// <example>https://schema.org/businessFunction</example>
         [DataMember(Name = "businessFunction")]
-        public BusinessFunction? BusinessFunction { get; set; }
+        public BusinessFunction BusinessFunction { get; set; }
 
         /// <summary>
         /// The typical delay between the receipt of the order and the goods
@@ -109,7 +109,7 @@ namespace CommonEntities.Core.Intangible
         /// </summary>
         /// <example>https://schema.org/eligibleCustomerType</example>
         [DataMember(Name = "eligibleCustomerType")]
-        public BusinessEntityType? EligibleCustomerType { get; set; }
+        public BusinessEntityType EligibleCustomerType { get; set; }
 
         /// <summary>
         /// The duration for which the given offer is valid. 
@@ -224,7 +224,7 @@ namespace CommonEntities.Core.Intangible
         /// </summary>
         /// <example>https://schema.org/itemCondition</example>
         [DataMember(Name = "itemCondition")]
-        public OfferItemCondition? ItemCondition { get; set; }
+        public OfferItemCondition ItemCondition { get; set; }
 
         /// <summary>
         /// The item being offered.

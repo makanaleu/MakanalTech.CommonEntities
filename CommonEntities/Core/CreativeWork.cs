@@ -34,7 +34,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/accessMode</example>
         [DataMember(Name = "accessMode")]
-        public AccessMode? AccessMode { get; set; }
+        public AccessMode AccessMode { get; set; }
 
         /// <summary>
         /// A list of AccessModes that are sufficient to understand all the 
@@ -42,7 +42,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/accessModeSufficient</example>
         [DataMember(Name = "accessModeSufficient")]
-        public List<AccessMode?> AccessModeSufficient { get; set; }
+        public List<AccessMode> AccessModeSufficient { get; set; }
 
         /// <summary>
         /// Indicates that the resource is compatible with the referenced 
@@ -50,7 +50,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/accessibilityAPI</example>
         [DataMember(Name = "accessibilityAPI")]
-        public AccessibilityAPI? AccessibilityAPI { get; set; }
+        public AccessibilityAPI AccessibilityAPI { get; set; }
 
         /// <summary>
         /// Identifies input methods that are sufficient to fully control the 
@@ -58,7 +58,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/accessibilityControl</example>
         [DataMember(Name = "accessibilityControl")]
-        public AccessibilityControl? AccessibilityControl { get; set; }
+        public AccessibilityControl AccessibilityControl { get; set; }
 
         /// <summary>
         /// Content features of the resource, such as accessible media, 
@@ -66,7 +66,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/accessibilityFeature</example>
         [DataMember(Name = "accessibilityFeature")]
-        public AccessibilityFeature? AccessibilityFeature { get; set; }
+        public AccessibilityFeature AccessibilityFeature { get; set; }
 
         /// <summary>
         /// A characteristic of the described resource that is physiologically 
@@ -80,7 +80,7 @@ namespace CommonEntities.Core
         /// </remarks>
         /// <example>https://schema.org/accessibilityHazard</example>
         [DataMember(Name = "accessibilityHazard")]
-        public AccessibilityHazard? AccessibilityHazard { get; set; }
+        public AccessibilityHazard AccessibilityHazard { get; set; }
 
         /// <summary>
         /// A human-readable summary of specific accessibility features or 
@@ -403,7 +403,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/interactivityType</example>
         [DataMember(Name = "interactivityType")]
-        public InteractivityType? InteractivityType { get; set; }
+        public InteractivityType InteractivityType { get; set; }
 
         /// <summary>
         /// A flag to signal that the item, event, or place is accessible for 

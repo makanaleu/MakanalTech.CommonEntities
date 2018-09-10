@@ -24,7 +24,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/actionStatus</example>
         [DataMember(Name = "actionStatus")]
-        public ActionStatusType? ActionStatus { get; set; }
+        public ActionStatusType ActionStatus { get; set; }
 
         /// <summary>
         /// The direct performer or driver of the action (animate or inanimate). 

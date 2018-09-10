@@ -33,7 +33,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/musicReleaseFormat</example>
         [DataMember(Name = "musicReleaseFormat")]
-        public MusicReleaseFormatType? MusicReleaseFormat { get; set; }
+        public MusicReleaseFormatType MusicReleaseFormat { get; set; }
 
         /// <summary>
         /// The label that issued the release.

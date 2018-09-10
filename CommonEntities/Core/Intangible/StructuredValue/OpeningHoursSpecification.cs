@@ -31,7 +31,7 @@ namespace CommonEntities.Core.Intangible.StructuredValue
         /// </summary>
         /// <example>https://schema.org/dayOfWeek</example>
         [DataMember(Name = "dayOfWeek")]
-        public DayOfWeek? DayOfWeek { get; set; }
+        public DayOfWeek DayOfWeek { get; set; }
 
         /// <summary>
         /// The opening hour of the place or service on the given day(s) of the

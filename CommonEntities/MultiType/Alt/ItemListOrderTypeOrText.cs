@@ -16,7 +16,7 @@ namespace CommonEntities.MultiType.Alt
         /// ItemListOrderTypeOrText as an ItemListOrderType.
         /// </summary>
         [DataMember(Name = "asItemListOrderType")]
-        public ItemListOrderType? AsItemListOrderType;
+        public ItemListOrderType AsItemListOrderType;
 
         /// <summary>
         /// ItemListOrderTypeOrText as an ItemListOrderType.

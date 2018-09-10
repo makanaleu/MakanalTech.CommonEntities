@@ -142,7 +142,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/eventStatus</example>
         [DataMember(Name = "eventStatus")]
-        public EventStatusType? EventStatus { get; set; }
+        public EventStatusType EventStatus { get; set; }
 
         /// <summary>
         /// A person or organization that supports (sponsors) something through
