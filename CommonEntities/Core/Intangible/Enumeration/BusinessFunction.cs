@@ -22,6 +22,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum BusinessFunction
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// This gr:BusinessFunction indicates that the gr:BusinessEntity offers
         /// (or seeks) the construction and/or installation of the specified 
         /// gr:ProductOrService at the customer's location.

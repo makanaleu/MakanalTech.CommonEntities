@@ -9,6 +9,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum InteractivityType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Active
         /// </summary>
         [EnumMember(Value = "active")]

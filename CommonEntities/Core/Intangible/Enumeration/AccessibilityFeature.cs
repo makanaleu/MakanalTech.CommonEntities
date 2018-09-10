@@ -14,6 +14,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum AccessibilityFeature
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Alternative text is provided for visual content (e.g., via the HTML
         /// alt attribute).
         /// </summary>
@@ -135,12 +141,6 @@ namespace CommonEntities.Core.Intangible.Enumeration
         /// </summary>
         [EnumMember(Value = "MathML")]
         MathML = 160,
-
-        /// <summary>
-        /// None of the accessibility features exists.
-        /// </summary>
-        [EnumMember(Value = "none")]
-        None = 170,
 
         /// <summary>
         /// The work includes equivalent print page numbers. This setting is most 

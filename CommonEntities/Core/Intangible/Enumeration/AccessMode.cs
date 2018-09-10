@@ -10,6 +10,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum AccessMode
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Auditory
         /// </summary>
         [EnumMember(Value = "auditory")]

@@ -14,6 +14,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum AccessibilityAPI
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// AndroidAccessibility
         /// </summary>
         [EnumMember(Value = "AndroidAccessibility")]

@@ -9,6 +9,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum ItemAvailability
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Indicates that the item has been discontinued.
         /// </summary>
         /// <example>https://schema.org/Discontinued</example>

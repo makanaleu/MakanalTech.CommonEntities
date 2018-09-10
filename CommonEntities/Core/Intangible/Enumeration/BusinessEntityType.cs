@@ -19,6 +19,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum BusinessEntityType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// The gr:BusinessEntityType representing such agents that are 
         /// themselves offering commercial services or products on the market.
         /// Usually, businesses are characterized by the fact that they are 

@@ -10,6 +10,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum ItemListOrderType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// An ItemList ordered with lower values listed first.
         /// </summary>
         /// <example>https://schema.org/ItemListOrderAscending</example>

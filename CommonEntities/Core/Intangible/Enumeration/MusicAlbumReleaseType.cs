@@ -14,6 +14,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum MusicAlbumReleaseType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// AlbumRelease.
         /// </summary>
         /// <example>https://schema.org/AlbumRelease</example>

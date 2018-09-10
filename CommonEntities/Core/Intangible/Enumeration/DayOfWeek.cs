@@ -17,6 +17,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum DayOfWeek
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// The day of the week between Thursday and Saturday.
         /// </summary>
         /// <example>https://schema.org/Friday</example>

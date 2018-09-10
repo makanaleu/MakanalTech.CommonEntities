@@ -16,6 +16,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum AccessibilityHazard
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Flashing
         /// </summary>
         [EnumMember(Value = "flashing")]
@@ -55,12 +61,6 @@ namespace CommonEntities.Core.Intangible.Enumeration
         /// Unknown
         /// </summary>
         [EnumMember(Value = "unknown")]
-        Unknown = 70,
-
-        /// <summary>
-        /// None
-        /// </summary>
-        [EnumMember(Value = "none")]
-        None = 90
+        Unknown = 70
     }
 }

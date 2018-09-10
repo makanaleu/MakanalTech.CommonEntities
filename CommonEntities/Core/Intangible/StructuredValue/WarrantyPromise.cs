@@ -24,6 +24,6 @@ namespace CommonEntities.Core.Intangible.StructuredValue
         /// </summary>
         /// <example>https://schema.org/warrantyScope</example>
         [DataMember(Name = "warrantyScope")]
-        public WarrantyScope? WarrantyScope { get; set; }
+        public WarrantyScope WarrantyScope { get; set; }
     }
 }
