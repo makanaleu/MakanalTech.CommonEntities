@@ -20,6 +20,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum DeliveryMethod
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Delivery of the goods via direct download from the Internet, i.e., 
         /// the offering gr:BusinessEntity provides the buying party with 
         /// details on how to retrieve the goods online. Connection fees and 

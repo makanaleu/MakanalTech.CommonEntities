@@ -9,6 +9,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum MapCategoryType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// A parking map.
         /// </summary>
         /// <example>https://schema.org/ParkingMap</example>

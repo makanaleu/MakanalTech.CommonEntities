@@ -10,6 +10,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum EventStatusType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// The event has been cancelled. If the event has multiple startDate 
         /// values, all are assumed to be cancelled. Either startDate or 
         /// previousStartDate may be used to specify the event's cancelled 

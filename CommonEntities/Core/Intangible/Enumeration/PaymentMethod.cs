@@ -19,6 +19,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum PaymentMethod
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Payment by bank transfer in advance, i.e., the offering 
         /// gr:BusinessEntity will inform the buying party about their bank 
         /// account details and will deliver the goods upon receipt of the due

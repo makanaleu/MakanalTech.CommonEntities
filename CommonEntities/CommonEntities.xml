@@ -1601,6 +1601,11 @@
             http://www.w3.org/wiki/WebSchemas/Accessibility
             </remarks>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityAPI.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityAPI.AndroidAccessibility">
             <summary>
             AndroidAccessibility
@@ -1666,6 +1671,11 @@
             http://www.w3.org/wiki/WebSchemas/Accessibility
             </remarks>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityControl.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityControl.FullKeyboardControl">
             <summary>
             Sufficient control of resource is possible via keyboard.
@@ -1705,6 +1715,11 @@
             WebSchemas wiki lists possible values: 
             http://www.w3.org/wiki/WebSchemas/Accessibility
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityFeature.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityFeature.AlternativeText">
             <summary>
@@ -1813,11 +1828,6 @@
             using the designated markup language.
             </summary>
         </member>
-        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityFeature.None">
-            <summary>
-            None of the accessibility features exists.
-            </summary>
-        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityFeature.PrintPageNumbers">
             <summary>
             The work includes equivalent print page numbers. This setting is most 
@@ -1916,6 +1926,11 @@
             assertions for the others.
             </remarks>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityHazard.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityHazard.Flashing">
             <summary>
             Flashing
@@ -1951,15 +1966,15 @@
             Unknown
             </summary>
         </member>
-        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessibilityHazard.None">
-            <summary>
-            None
-            </summary>
-        </member>
         <member name="T:CommonEntities.Core.Intangible.Enumeration.AccessMode">
             <summary>
             The human sensory perceptual system or cognitive faculty through which
             a person may process or perceive information.
+            </summary>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessMode.None">
+            <summary>
+            None
             </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.AccessMode.Auditory">
@@ -2022,6 +2037,11 @@
             The status of an Action.
             </summary>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.ActionStatusType.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.ActionStatusType.ActiveActionStatus">
             <summary>
             An in-progress action (e.g, while watching the movie, or 
@@ -2062,6 +2082,11 @@
             syntaxes, including RDFa and HTML5 Microdata. More information about 
             GoodRelations can be found at http://purl.org/goodrelations/.
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.BusinessEntityType.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.BusinessEntityType.Business">
             <summary>
@@ -2115,6 +2140,11 @@
             syntaxes, including RDFa and HTML5 Microdata. More information about 
             GoodRelations can be found at http://purl.org/goodrelations/.
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.BusinessFunction.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.BusinessFunction.ConstructionInstallation">
             <summary>
@@ -2210,6 +2240,11 @@
             Enumerated options related to a ContactPoint.
             </summary>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.ContactPointOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.ContactPointOption.HearingImpairedSupported">
             <summary>
             Uses devices to support users with hearing impairments.
@@ -2234,6 +2269,11 @@
             syntaxes, including RDFa and HTML5 Microdata. More information about 
             GoodRelations can be found at http://purl.org/goodrelations/.
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.DayOfWeek.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.DayOfWeek.Friday">
             <summary>
@@ -2308,6 +2348,11 @@
             GoodRelations can be found at http://purl.org/goodrelations/.
             </remarks>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.DeliveryMethod.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.DeliveryMethod.DeliveryModeDirectDownload">
             <summary>
             Delivery of the goods via direct download from the Internet, i.e., 
@@ -2370,6 +2415,11 @@
             states that an Event may be in.
             </summary>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.EventStatusType.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.EventStatusType.EventCancelled">
             <summary>
             The event has been cancelled. If the event has multiple startDate 
@@ -2407,6 +2457,11 @@
             An enumeration of genders.
             </summary>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.GenderType.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.GenderType.Female">
             <summary>
             The female gender.
@@ -2422,6 +2477,11 @@
         <member name="T:CommonEntities.Core.Intangible.Enumeration.InteractivityType">
             <summary>
             The predominant mode of learning supported by the learning resource.
+            </summary>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.InteractivityType.None">
+            <summary>
+            None
             </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.InteractivityType.Active">
@@ -2442,6 +2502,11 @@
         <member name="T:CommonEntities.Core.Intangible.Enumeration.ItemAvailability">
             <summary>
             A list of possible product availability options.
+            </summary>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.ItemAvailability.None">
+            <summary>
+            None
             </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.ItemAvailability.Discontinued">
@@ -2506,6 +2571,11 @@
             ItemList is organized.
             </summary>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.ItemListOrderType.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.ItemListOrderType.ItemListOrderAscending">
             <summary>
             An ItemList ordered with lower values listed first.
@@ -2527,6 +2597,11 @@
         <member name="T:CommonEntities.Core.Intangible.Enumeration.MapCategoryType">
             <summary>
             An enumeration of several kinds of Map.
+            </summary>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.MapCategoryType.None">
+            <summary>
+            None
             </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.MapCategoryType.ParkingMap">
@@ -2563,6 +2638,11 @@
             project (www.musicbrainz.org), and is partially inspired by the 
             MusicBrainz and Music Ontology schemas.
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.MusicAlbumProductionType.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.MusicAlbumProductionType.CompilationAlbum">
             <summary>
@@ -2628,6 +2708,11 @@
             MusicBrainz and Music Ontology schemas.
             </remarks>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.MusicAlbumReleaseType.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.MusicAlbumReleaseType.AlbumRelease">
             <summary>
             AlbumRelease.
@@ -2656,6 +2741,11 @@
             <summary>
             Format of this release (the type of recording media used, ie.
             compact disc, digital media, LP, etc.).
+            </summary>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.MusicReleaseFormatType.None">
+            <summary>
+            None
             </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.MusicReleaseFormatType.CDFormat">
@@ -2705,6 +2795,11 @@
             A list of possible conditions for the item.
             </summary>
         </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.OfferItemCondition.None">
+            <summary>
+            None
+            </summary>
+        </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.OfferItemCondition.DamagedCondition">
             <summary>
             Indicates that the item is damaged.
@@ -2743,6 +2838,11 @@
             syntaxes, including RDFa and HTML5 Microdata. More information about 
             GoodRelations can be found at http://purl.org/goodrelations/.
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.PaymentMethod.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.PaymentMethod.ByBankTransferInAdvance">
             <summary>
@@ -2832,6 +2932,11 @@
             syntaxes, including RDFa and HTML5 Microdata. More information about 
             GoodRelations can be found at http://purl.org/goodrelations/.
             </remarks>
+        </member>
+        <member name="F:CommonEntities.Core.Intangible.Enumeration.WarrantyScope.None">
+            <summary>
+            None
+            </summary>
         </member>
         <member name="F:CommonEntities.Core.Intangible.Enumeration.WarrantyScope.LaborBringIn">
             <summary>

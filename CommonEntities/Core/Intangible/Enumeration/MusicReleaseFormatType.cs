@@ -10,6 +10,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum MusicReleaseFormatType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// CDFormat.
         /// </summary>
         /// <example>https://schema.org/CDFormat</example>

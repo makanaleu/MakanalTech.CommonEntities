@@ -9,6 +9,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum OfferItemCondition
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Indicates that the item is damaged.
         /// </summary>
         /// <example>https://schema.org/DamagedCondition</example>

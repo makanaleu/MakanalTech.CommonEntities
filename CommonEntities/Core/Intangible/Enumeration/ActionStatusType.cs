@@ -9,6 +9,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum ActionStatusType
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// An in-progress action (e.g, while watching the movie, or 
         /// driving to a location).
         /// </summary>

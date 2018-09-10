@@ -9,6 +9,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum ContactPointOption
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Uses devices to support users with hearing impairments.
         /// </summary>
         /// <example>https://schema.org/HearingImpairedSupported</example>

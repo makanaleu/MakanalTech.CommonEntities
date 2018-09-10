@@ -17,6 +17,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum WarrantyScope
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// In case of a defect or malfunction, the buying party has the right
         /// to transport the good to a service location determined by the the
         /// selling gr:BusinessEntity and will be charged only for parts and 

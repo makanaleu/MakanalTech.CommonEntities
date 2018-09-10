@@ -14,6 +14,12 @@ namespace CommonEntities.Core.Intangible.Enumeration
     public enum AccessibilityControl
     {
         /// <summary>
+        /// None
+        /// </summary>
+        [EnumMember(Value = "None")]
+        None = 0,
+
+        /// <summary>
         /// Sufficient control of resource is possible via keyboard.
         /// </summary>
         [EnumMember(Value = "fullKeyboardControl")]
