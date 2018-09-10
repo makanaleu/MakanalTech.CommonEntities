@@ -628,7 +628,7 @@ namespace CommonEntities.Core
         /// of New York.
         /// </remarks>
         /// <example>https://schema.org/sourceOrganization</example>
-        [DataMember(Name = "sourceOrganization")]
+        [DataMember(Name = "SpatialCoverage")]
         public Place SpatialCoverage { get; set; }
 
         /// <summary>
