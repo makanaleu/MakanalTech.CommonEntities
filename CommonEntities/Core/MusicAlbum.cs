@@ -15,7 +15,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/albumProductionType</example>
         [DataMember(Name = "albumProductionType")]
-        public MusicAlbumProductionType AlbumProductionType { get; set; }
+        public MusicAlbumProductionType? AlbumProductionType { get; set; }
 
         /// <summary>
         /// A release of this album.
@@ -30,7 +30,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/albumReleaseType</example>
         [DataMember(Name = "albumReleaseType")]
-        public MusicAlbumReleaseType AlbumReleaseType { get; set; }
+        public MusicAlbumReleaseType? AlbumReleaseType { get; set; }
 
         /// <summary>
         /// The artist that performed this album or recording.

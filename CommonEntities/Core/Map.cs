@@ -14,6 +14,6 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/mapType</example>
         [DataMember(Name = "mapType")]
-        public MapCategoryType MapType { get; set; }
+        public MapCategoryType? MapType { get; set; }
     }
 }

@@ -180,7 +180,7 @@ namespace CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/itemCondition</example>
         [DataMember(Name = "itemCondition")]
-        public OfferItemCondition ItemCondition { get; set; }
+        public OfferItemCondition? ItemCondition { get; set; }
 
         /// <summary>
         /// An associated logo.

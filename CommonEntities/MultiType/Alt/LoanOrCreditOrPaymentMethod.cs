@@ -21,7 +21,7 @@ namespace CommonEntities.MultiType.Alt
         /// LoanOrCreditOrPaymentMethod as a PaymentMethod.
         /// </summary>
         [DataMember(Name = "asPaymentMethod")]
-        public PaymentMethod AsPaymentMethod;
+        public PaymentMethod? AsPaymentMethod;
 
         /// <summary>
         /// LoanOrCreditOrPaymentMethod as a LoanOrCredit.
