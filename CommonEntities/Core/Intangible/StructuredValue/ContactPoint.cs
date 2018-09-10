@@ -36,7 +36,7 @@ namespace CommonEntities.Core.Intangible.StructuredValue
         /// </summary>
         /// <example>https://schema.org/contactOption</example>
         [DataMember(Name = "contactOption")]
-        public ContactPointOption ContactOption { get; set; }
+        public ContactPointOption? ContactOption { get; set; }
 
         /// <summary>
         /// A person or organization can have different contact points, for 

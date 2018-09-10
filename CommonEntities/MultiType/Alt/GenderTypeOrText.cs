@@ -15,7 +15,7 @@ namespace CommonEntities.MultiType.Alt
         /// GenderTypeOrText as a GenderType.
         /// </summary>
         [DataMember(Name = "asGenderType")]
-        public GenderType AsGenderType;
+        public GenderType? AsGenderType;
 
         /// <summary>
         /// GenderTypeOrText as a GenderType.
