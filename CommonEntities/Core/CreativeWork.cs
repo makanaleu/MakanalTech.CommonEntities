@@ -485,7 +485,7 @@ namespace CommonEntities.Core
         /// paper.
         /// </summary>
         /// <example>https://schema.org/material</example>
-        [DataMember(Name = "locationCreated")]
+        [DataMember(Name = "material")]
         public ProductOrTextRef Material { get; set; }
 
         /// <summary>
