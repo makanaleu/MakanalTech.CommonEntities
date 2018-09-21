@@ -16,7 +16,7 @@ namespace CommonEntities.MultiType.Combo
         /// <summary>
         /// Recipient as an Audience.
         /// </summary>
-        [DataMember(Name = "asContactPoint")]
+        [DataMember(Name = "asAudience")]
         public Audience AsAudience;
 
         /// <summary>
@@ -28,13 +28,13 @@ namespace CommonEntities.MultiType.Combo
         /// <summary>
         /// Recipient as an Organization.
         /// </summary>
-        [DataMember(Name = "asContactPoint")]
+        [DataMember(Name = "asOrganization")]
         public Organization AsOrganization;
 
         /// <summary>
         /// Recipient as an Person.
         /// </summary>
-        [DataMember(Name = "asContactPoint")]
+        [DataMember(Name = "asPerson")]
         public Person AsPerson;
 
         /// <summary>
