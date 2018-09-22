@@ -7,11 +7,11 @@
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
-    <PackageProjectUrl>https://makanal.visualstudio.com/CommonEntities</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/makanaleu/CommonEntities</RepositoryUrl>
-    <Version>1.0.0-rc.11</Version>
-    <AssemblyVersion>1.0.0.11</AssemblyVersion>
-    <FileVersion>1.0.0.11</FileVersion>
+    <PackageProjectUrl>https://makanal.visualstudio.com/MakanalTech.CommonEntities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/makanaleu/MakanalTech.CommonEntities</RepositoryUrl>
+    <Version>1.0.0-rc.12</Version>
+    <AssemblyVersion>1.0.0.12</AssemblyVersion>
+    <FileVersion>1.0.0.12</FileVersion>
     <ApplicationIcon />
     <Win32Resource />
     <Description>.Net Standard class library based on Schema.org objects.</Description>
