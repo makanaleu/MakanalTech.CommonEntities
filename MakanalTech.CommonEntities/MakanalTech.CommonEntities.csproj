@@ -3,15 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <Authors>Kane McConnell</Authors>
-    <Company>Makánal Technológia és Szoftver Fejlesztés KFT</Company>
+    <Company>Makánal Technológia és Szoftver Fejlesztés Kft.</Company>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://makanal.visualstudio.com/MakanalTech.CommonEntities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/makanaleu/MakanalTech.CommonEntities</RepositoryUrl>
-    <Version>1.0.0-rc.12</Version>
-    <AssemblyVersion>1.0.0.12</AssemblyVersion>
-    <FileVersion>1.0.0.12</FileVersion>
+    <Version>1.0.0-rc.13</Version>
+    <AssemblyVersion>1.0.0.13</AssemblyVersion>
+    <FileVersion>1.0.0.13</FileVersion>
     <ApplicationIcon />
     <Win32Resource />
     <Description>.Net Standard class library based on Schema.org objects.</Description>
