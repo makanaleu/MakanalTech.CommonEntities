@@ -12,7 +12,7 @@ namespace MakanalTech.CommonEntities.Listify.Intangible
     /// by the core vocabulary but are more prevelantly used as lists rather
     /// than single elements.
     /// </remarks>
-    class ItemList : Core.Intangible.ItemList
+    public class ItemList : Core.Intangible.ItemList
     {
         /// <summary>
         /// Core.Intangible.ItemList.ItemListElement as a list.
