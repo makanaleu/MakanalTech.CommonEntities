@@ -8,7 +8,7 @@ namespace MakanalTech.CommonEntities.Core
     /// about, properties shared with all CreativeWorks.
     /// </summary>
     [DataContract(Name = "Comment", Namespace = "https://schema.org/Comment")]
-    public class Comment
+    public class Comment : Thing
     {
         /// <summary>
         /// The number of downvotes this question, answer or comment has 
