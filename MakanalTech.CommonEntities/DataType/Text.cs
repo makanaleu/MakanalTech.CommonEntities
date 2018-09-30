@@ -12,7 +12,7 @@ namespace MakanalTech.CommonEntities.DataType
         /// Data type: Text
         /// </summary>
         [DataMember(Name = "asText")]
-        public string AsText;
+        public string AsText { get; set; }
 
         /// <summary>
         /// Data type: Text
