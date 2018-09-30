@@ -13,7 +13,7 @@ namespace MakanalTech.CommonEntities.Pending
     /// are subject to change and should be used with caution.
     /// </remarks>
     [DataContract(Name = "MediaObject", Namespace = "https://pending.schema.org/MediaObject")]
-    class MediaObject : Core.MediaObject
+    public class MediaObject : Core.MediaObject
     {
         /// <summary>
         /// The duration of the item (movie, audio recording, event, etc.) in 
