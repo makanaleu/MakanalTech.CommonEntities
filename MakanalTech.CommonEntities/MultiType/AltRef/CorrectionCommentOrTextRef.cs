@@ -12,6 +12,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
     public class CorrectionCommentOrTextRef
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// CorrectionCommentOrTextRef as a CorrectionComment.
         /// </summary>
         [DataMember(Name = "asCorrectionComment")]

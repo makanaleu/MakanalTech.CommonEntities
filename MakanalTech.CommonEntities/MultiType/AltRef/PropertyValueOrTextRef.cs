@@ -12,6 +12,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
     public class PropertyValueOrTextRef
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// PropertyValueOrTextRef as a PropertyValue.
         /// </summary>
         [DataMember(Name = "asPropertyValue")]

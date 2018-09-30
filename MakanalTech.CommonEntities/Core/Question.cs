@@ -8,7 +8,7 @@ namespace MakanalTech.CommonEntities.Core
     /// collected in a Frequently Asked Questions (FAQ) document.
     /// </summary>
     [DataContract(Name = "Question", Namespace = "https://schema.org/Question")]
-    public class Question
+    public class Question : CreativeWork
     {
         /// <summary>
         /// The answer(s) that has been accepted as best, typically on a 

@@ -12,6 +12,13 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
     public class CreativeWorkAboutPageOrTextRef
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// CreativeWorkAboutPageOrTextRef as a CreativeWork.
         /// </summary>
         [DataMember(Name = "asCreativeWork")]

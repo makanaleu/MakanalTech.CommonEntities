@@ -13,6 +13,13 @@ namespace MakanalTech.CommonEntities.Core.Intangible.StructuredValue
     public class ContactPoint
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// The geographic area where a service or offered item is provided. 
         /// </summary>
         /// <example>https://schema.org/areaServed</example>

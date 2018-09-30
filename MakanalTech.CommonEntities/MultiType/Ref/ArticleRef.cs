@@ -12,6 +12,13 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
     public class ArticleRef
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// ArticleRef as an Article.
         /// </summary>
         [DataMember(Name = "asArticle")]
