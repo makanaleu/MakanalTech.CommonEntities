@@ -12,7 +12,7 @@ namespace MakanalTech.CommonEntities.DataType
         /// Boolean: true or false.
         /// </summary>
         [DataMember(Name = "asBool")]
-        public bool AsBool;
+        public bool AsBool { get; set; }
 
         /// <summary>
         /// Boolean: true or false.

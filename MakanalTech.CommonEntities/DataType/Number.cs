@@ -13,13 +13,13 @@ namespace MakanalTech.CommonEntities.DataType
         /// Number as a float.
         /// </summary>
         [DataMember(Name = "asFloat")]
-        public float AsFloat;
+        public float AsFloat { get; set; }
 
         /// <summary>
         /// Number as an integer.
         /// </summary>
         [DataMember(Name = "asInteger")]
-        public int AsInteger;
+        public int AsInteger { get; set; }
 
         /// <summary>
         /// Sets Number values from float. Floats will be rounded to nearest
@@ -48,8 +48,17 @@ namespace MakanalTech.CommonEntities.DataType
         /// <param name="number">Number as a string.</param>
         public Number(string number) : base(number)
         {
-            if (!float.TryParse(number, out AsFloat)) { AsFloat = 0; }
-            if (!int.TryParse(number, out AsInteger)) { AsInteger = 0; }
+
+            if (!float.TryParse(number, out float outFloat))
+            {
+                AsFloat = 0;
+            }
+            else { AsFloat = outFloat; }
+            if (!int.TryParse(number, out int outInteger))
+            {
+                AsInteger = 0;
+            }
+            else { AsInteger = outInteger; }
         }
 
         /// <summary>
@@ -65,6 +74,6 @@ namespace MakanalTech.CommonEntities.DataType
         /// <summary>
         /// Number.
         /// </summary>
-        public Number(): base() { }
+        public Number() : base() { }
     }
 }

@@ -13,7 +13,7 @@ namespace MakanalTech.CommonEntities.DataType
         /// DateTime as a Date (when time is not required).
         /// </summary>
         [DataMember(Name = "asDate")]
-        public Date AsDate;
+        public Date AsDate { get; set; }
 
         /// <summary>
         /// A combination of date and time of day in the form 
