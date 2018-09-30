@@ -1,14 +1,13 @@
 ﻿using MakanalTech.CommonEntities.Core.Intangible;
 using MakanalTech.CommonEntities.Core.Intangible.Enumeration;
 using MakanalTech.CommonEntities.Core.Intangible.StructuredValue;
+using MakanalTech.CommonEntities.DataType;
 using MakanalTech.CommonEntities.MultiType.Alt;
 using MakanalTech.CommonEntities.MultiType.Combo;
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using MakanalTech.CommonEntities.DataType;
-using DateTime = MakanalTech.CommonEntities.DataType.DateTime;
 using Boolean = MakanalTech.CommonEntities.DataType.Boolean;
+using DateTime = MakanalTech.CommonEntities.DataType.DateTime;
 
 namespace MakanalTech.CommonEntities.Core
 {
@@ -18,8 +17,8 @@ namespace MakanalTech.CommonEntities.Core
     /// offers property. Repeated events may be structured as separate Event 
     /// objects.
     /// </summary>
-    [DataContract(Name = "Organization", Namespace = "https://schema.org/Organization")]
-    public class Event
+    [DataContract(Name = "Event", Namespace = "https://schema.org/Event")]
+    public class Event : Thing
     {
         /// <summary>
         /// The subject matter of the content.
