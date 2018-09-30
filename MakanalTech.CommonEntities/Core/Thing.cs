@@ -29,6 +29,13 @@ namespace MakanalTech.CommonEntities.Core
         public Text AlternateName { get; set; }
 
         /// <summary>
+        /// Allows Thing to be used in applications requiring simple property
+        /// keys.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// A description of the item.
         /// </summary>
         /// <example>https://www.schema.org/description</example>
