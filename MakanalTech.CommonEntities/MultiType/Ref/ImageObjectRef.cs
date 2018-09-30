@@ -11,6 +11,13 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
     public class ImageObjectRef
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// Image as an ImageObject.
         /// </summary>
         [DataMember(Name = "asImageObject")]

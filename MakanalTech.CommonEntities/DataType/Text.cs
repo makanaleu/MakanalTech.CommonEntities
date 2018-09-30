@@ -15,6 +15,13 @@ namespace MakanalTech.CommonEntities.DataType
         public string AsText { get; set; }
 
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// Data type: Text
         /// </summary>
         /// <param name="text">Data type: Text</param>

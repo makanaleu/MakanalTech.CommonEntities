@@ -16,7 +16,7 @@ namespace MakanalTech.CommonEntities.Core.Intangible.StructuredValue
     /// next day.
     /// </remarks>
     [DataContract(Name = "OpeningHoursSpecification", Namespace = "https://schema.org/OpeningHoursSpecification")]
-    public class OpeningHoursSpecification
+    public class OpeningHoursSpecification : Thing
     {
         /// <summary>
         /// The closing hour of the place or service on the given day(s) of the

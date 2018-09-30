@@ -12,6 +12,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
     public class SoftwareApplicationOrWebsite
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// SoftwareApplicationOrWebsite as a SoftwareApplication.
         /// </summary>
         [DataMember(Name = "asSoftwareApplication")]

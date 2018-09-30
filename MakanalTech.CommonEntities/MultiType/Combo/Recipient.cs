@@ -14,6 +14,13 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
     public class Recipient
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// Recipient as an Audience.
         /// </summary>
         [DataMember(Name = "asAudience")]

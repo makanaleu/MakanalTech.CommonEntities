@@ -7,7 +7,7 @@ namespace MakanalTech.CommonEntities.Core
     /// A collection of music tracks.
     /// </summary>
     [DataContract(Name = "MusicAlbum", Namespace = "https://schema.org/MusicAlbum")]
-    public class MusicAlbum
+    public class MusicAlbum : MusicPlaylist
     {
         /// <summary>
         /// Classification of the album by it's type of content: soundtrack, 

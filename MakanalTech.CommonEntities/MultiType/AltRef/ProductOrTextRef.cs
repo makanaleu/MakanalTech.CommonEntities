@@ -11,6 +11,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
     public class ProductOrTextRef
     {
         /// <summary>
+        /// ApplicationKey allows base classes to be used in a relational
+        /// data management environment where a key is required.
+        /// </summary>
+        [DataMember(Name = "applicationKey")]
+        public string ApplicationKey { get; set; }
+
+        /// <summary>
         /// ProductTextOrUrl as a Product.
         /// </summary>
         [DataMember(Name = "asProduct")]

@@ -8,7 +8,7 @@ namespace MakanalTech.CommonEntities.Core
     /// A software application.
     /// </summary>
     [DataContract(Name = "SoftwareApplication", Namespace = "https://schema.org/SoftwareApplication")]
-    public class SoftwareApplication
+    public class SoftwareApplication : CreativeWork
     {
         /// <summary>
         /// Type of software application, e.g. 'Game, Multimedia'.
