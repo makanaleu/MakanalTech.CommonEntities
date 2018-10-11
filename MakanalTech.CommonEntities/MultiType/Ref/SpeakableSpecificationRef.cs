@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// SpeakableSpecificationRef as a SpeakableSpecification.
         /// </summary>
         [DataMember(Name = "AsSpeakableSpecification")]
-        public SpeakableSpecification AsSpeakableSpecification;
+        public SpeakableSpecification AsSpeakableSpecification { get; set; }
 
         /// <summary>
         /// SpeakableSpecificationRef as a SpeakableSpecification.

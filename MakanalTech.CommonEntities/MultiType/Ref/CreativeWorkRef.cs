@@ -27,7 +27,7 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// CreativeWorkRef as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// CreativeWorkRef as a CreativeWork.

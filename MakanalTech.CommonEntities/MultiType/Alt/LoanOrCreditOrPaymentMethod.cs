@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// LoanOrCreditOrPaymentMethod as a LoanOrCredit.
         /// </summary>
         [DataMember(Name = "asLoanOrCredit")]
-        public LoanOrCredit AsLoanOrCredit;
+        public LoanOrCredit AsLoanOrCredit { get; set; }
 
         /// <summary>
         /// LoanOrCreditOrPaymentMethod as a PaymentMethod.
         /// </summary>
         [DataMember(Name = "asPaymentMethod")]
-        public PaymentMethod AsPaymentMethod;
+        public PaymentMethod AsPaymentMethod { get; set; }
 
         /// <summary>
         /// LoanOrCreditOrPaymentMethod as a LoanOrCredit.

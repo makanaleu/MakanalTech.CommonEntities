@@ -21,19 +21,19 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// CreativeWorkProductOrURL as a CreativeWork.
         /// </summary>
         [DataMember(Name = "asCreativeWork")]
-        public CreativeWork AsCreativeWork;
+        public CreativeWork AsCreativeWork { get; set; }
 
         /// <summary>
         /// CreativeWorkProductOrURL as a Product.
         /// </summary>
         [DataMember(Name = "asProduct")]
-        public Product AsProduct;
+        public Product AsProduct { get; set; }
 
         /// <summary>
         /// CreativeWorkProductOrURL as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// CreativeWorkProductOrURL as a CreativeWork.

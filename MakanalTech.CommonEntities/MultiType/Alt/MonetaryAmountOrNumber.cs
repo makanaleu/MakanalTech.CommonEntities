@@ -14,7 +14,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// <summary>
         /// MonetaryAmountOrNumber as a MonetaryAmount.
         /// </summary>
-        public MonetaryAmount AsMonetaryAmount;
+        public MonetaryAmount AsMonetaryAmount { get; set; }
 
         /// <summary>
         /// MonetaryAmountOrNumber as a MonetaryAmount.

@@ -20,13 +20,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// MusicGroupOrPerson as a MusicGroup.
         /// </summary>
         [DataMember(Name = "asMusicGroup")]
-        public MusicGroup AsMusicGroup;
+        public MusicGroup AsMusicGroup { get; set; }
 
         /// <summary>
         /// MusicGroupOrPerson as a Person.
         /// </summary>
         [DataMember(Name = "asPerson")]
-        public Person AsPerson;
+        public Person AsPerson { get; set; }
 
         /// <summary>
         /// MusicGroupOrPerson as a MusicGroup.

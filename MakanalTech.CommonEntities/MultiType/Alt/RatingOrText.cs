@@ -14,7 +14,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// RatingOrText as a Rating.
         /// </summary>
         [DataMember(Name = "asRating")]
-        public Rating AsRating;
+        public Rating AsRating { get; set; }
 
         /// <summary>
         /// RatingOrText as a Rating.

@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// BreadcrumbListOrText as a BreadcrumbList.
         /// </summary>
         [DataMember(Name = "asBreadcrumbList")]
-        public BreadcrumbList AsBreadcrumbList;
+        public BreadcrumbList AsBreadcrumbList { get; set; }
 
         /// <summary>
         /// BreadcrumbListOrText as a BreadcrumbList.

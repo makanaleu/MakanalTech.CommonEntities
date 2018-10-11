@@ -13,7 +13,7 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// TextRef as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// TextRef as a Text (string).

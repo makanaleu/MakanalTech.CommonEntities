@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// GeoCoordinatesOrGeoShape as GeoCoordinates.
         /// </summary>
         [DataMember(Name = "asGeoCoordinates")]
-        public GeoCoordinates AsGeoCoordinates;
+        public GeoCoordinates AsGeoCoordinates { get; set; }
 
         /// <summary>
         /// GeoCoordinatesOrGeoShape as a GeoShape.
         /// </summary>
         [DataMember(Name = "asGeoShape")]
-        public GeoShape AsGeoShape;
+        public GeoShape AsGeoShape { get; set; }
 
         /// <summary>
         /// GeoCoordinatesOrGeoShape as GeoCoordinates.

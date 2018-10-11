@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ImageObjectOrPhotograph as an ImageObject.
         /// </summary>
         [DataMember(Name = "asImageObject")]
-        public ImageObject AsImageObject;
+        public ImageObject AsImageObject { get; set; }
 
         /// <summary>
         /// ImageObjectOrPhotograph as a Photograh.
         /// </summary>
         [DataMember(Name = "asPhotograph")]
-        public Photograph AsPhotograph;
+        public Photograph AsPhotograph { get; set; }
 
         /// <summary>
         /// ImageObjectOrPhotograph as an ImageObject.

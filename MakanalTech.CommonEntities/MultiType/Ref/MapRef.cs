@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// MapRef as a Map.
         /// </summary>
         [DataMember(Name = "asMap")]
-        public Map AsMap;
+        public Map AsMap { get; set; }
 
         /// <summary>
         /// MapRef as a Map.

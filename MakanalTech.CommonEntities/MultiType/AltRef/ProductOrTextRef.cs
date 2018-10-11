@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// ProductTextOrUrl as a Product.
         /// </summary>
         [DataMember(Name = "asProduct")]
-        public Product AsProduct;
+        public Product AsProduct { get; set; }
 
         /// <summary>
         /// ProductTextOrUrl as a TextRef.
         /// </summary>
         [DataMember(Name = "asTextRef")]
-        public TextRef AsTextRef;
+        public TextRef AsTextRef { get; set; }
 
         /// <summary>
         /// ProductTextOrUrl as a Product.

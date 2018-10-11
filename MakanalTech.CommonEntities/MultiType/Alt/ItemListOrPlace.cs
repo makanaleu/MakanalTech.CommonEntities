@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ItemListOrPlace as a ItemList.
         /// </summary>
         [DataMember(Name = "asItemList")]
-        public ItemList AsItemList;
+        public ItemList AsItemList { get; set; }
 
         /// <summary>
         /// ItemListOrPlace as a Place.
         /// </summary>
         [DataMember(Name = "asPlace")]
-        public Place AsPlace;
+        public Place AsPlace { get; set; }
 
         /// <summary>
         /// ItemListOrPlace as a ItemList.

@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ProductModelOrText as a ProductModel.
         /// </summary>
         [DataMember(Name = "asProductModel")]
-        public ProductModel AsProductModel;
+        public ProductModel AsProductModel { get; set; }
 
         /// <summary>
         /// ProductModelOrText as a ProductModel.

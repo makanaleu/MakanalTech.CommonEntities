@@ -23,19 +23,19 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// ContactPointOrOrganizationOrPerson as a ContactPoint.
         /// </summary>
         [DataMember(Name = "asContactPoint")]
-        public ContactPoint AsContactPoint;
+        public ContactPoint AsContactPoint { get; set; }
 
         /// <summary>
         /// ContactPointOrOrganizationOrPerson as a Organization.
         /// </summary>
         [DataMember(Name = "asOrganization")]
-        public Organization AsOrganization;
+        public Organization AsOrganization { get; set; }
 
         /// <summary>
         /// ContactPointOrOrganizationOrPerson as a Person.
         /// </summary>
         [DataMember(Name = "asPerson")]
-        public Person AsPerson;
+        public Person AsPerson { get; set; }
 
         /// <summary>
         /// ContactPointOrOrganizationOrPerson as a ContactPoint.

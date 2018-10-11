@@ -22,19 +22,19 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// CreativeWorkAboutPageOrTextRef as a CreativeWork.
         /// </summary>
         [DataMember(Name = "asCreativeWork")]
-        public CreativeWork AsCreativeWork;
+        public CreativeWork AsCreativeWork { get; set; }
 
         /// <summary>
         /// CreativeWorkAboutPageOrTextRef as an AboutPage.
         /// </summary>
         [DataMember(Name = "asAboutPage")]
-        public AboutPage AsAboutPage;
-        
+        public AboutPage AsAboutPage { get; set; }
+
         /// <summary>
         /// CreativeWorkAboutPageOrTextRef as TextRef.
         /// </summary>
         [DataMember(Name = "asTextRef")]
-        public TextRef AsTextRef;
+        public TextRef AsTextRef { get; set; }
 
         /// <summary>
         /// CreativeWorkAboutPageOrTextRef as a CreativeWork.

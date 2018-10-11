@@ -16,13 +16,13 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// GeoShapePlaceOrText as a GeoShape.
         /// </summary>
         [DataMember(Name = "asGeoShape")]
-        public GeoShape AsGeoShape;
+        public GeoShape AsGeoShape { get; set; }
 
         /// <summary>
         /// GeoShapePlaceOrText as a Place.
         /// </summary>
         [DataMember(Name = "asPlace")]
-        public Place AsPlace;
+        public Place AsPlace { get; set; }
 
         /// <summary>
         /// GeoShapePlaceOrText as a GeoShape.

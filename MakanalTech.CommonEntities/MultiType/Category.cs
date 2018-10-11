@@ -16,13 +16,13 @@ namespace MakanalTech.CommonEntities.MultiType
         /// Category as a PhysicalActivityCategory.
         /// </summary>
         [DataMember(Name = "asPhysicalActivityCategory")]
-        public PhysicalActivityCategory AsPhysicalActivityCategory;
+        public PhysicalActivityCategory AsPhysicalActivityCategory { get; set; }
 
         /// <summary>
         /// Category as a Thing.
         /// </summary>
         [DataMember(Name = "asThing")]
-        public Thing AsThing;
+        public Thing AsThing { get; set; }
 
         /// <summary>
         /// Category as a PhysicalActivityCategory.

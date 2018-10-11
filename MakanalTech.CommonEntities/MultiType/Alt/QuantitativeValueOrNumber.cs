@@ -14,7 +14,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// QuantitativeValueOrNumber as a QuantitativeValue.
         /// </summary>
         [DataMember(Name = "asQuantitativeValue")]
-        public QuantitativeValue AsQuantitativeValue;
+        public QuantitativeValue AsQuantitativeValue { get; set; }
 
         /// <summary>
         /// QuantitativeValueOrNumber as a QuantitativeValue.

@@ -20,13 +20,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// CreativeWorkOrEvent as a CreativeWork.
         /// </summary>
         [DataMember(Name = "asCreativeWork")]
-        public CreativeWork AsCreativeWork;
+        public CreativeWork AsCreativeWork { get; set; }
 
         /// <summary>
         /// CreativeWorkOrEvent as an Event.
         /// </summary>
         [DataMember(Name = "asEvent")]
-        public Event AsEvent;
+        public Event AsEvent { get; set; }
 
         /// <summary>
         /// CreativeWorkOrEvent as a CreativeWork.

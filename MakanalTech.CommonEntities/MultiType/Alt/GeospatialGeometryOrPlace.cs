@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// GeospatialGeometryOrPlace as a GeospatialGeometry.
         /// </summary>
         [DataMember(Name = "asGeospatialGeometry")]
-        public GeospatialGeometry AsGeospatialGeometry;
+        public GeospatialGeometry AsGeospatialGeometry { get; set; }
 
         /// <summary>
         /// GeospatialGeometryOrPlace as a Place.
         /// </summary>
         [DataMember(Name = "asPlace")]
-        public Place AsPlace;
+        public Place AsPlace { get; set; }
 
         /// <summary>
         /// GeospatialGeometryOrPlace as a GeospatialGeometry.

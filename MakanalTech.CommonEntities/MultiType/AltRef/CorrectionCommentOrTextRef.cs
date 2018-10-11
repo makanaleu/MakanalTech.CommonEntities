@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// CorrectionCommentOrTextRef as a CorrectionComment.
         /// </summary>
         [DataMember(Name = "asCorrectionComment")]
-        public CorrectionComment AsCorrectionComment;
+        public CorrectionComment AsCorrectionComment { get; set; }
 
         /// <summary>
         /// CorrectionCommentOrTextRef as a TextRef.
         /// </summary>
         [DataMember(Name = "asTextRef")]
-        public TextRef AsTextRef;
+        public TextRef AsTextRef { get; set; }
 
         /// <summary>
         /// CorrectionCommentOrTextRef as a CorrectionComment.

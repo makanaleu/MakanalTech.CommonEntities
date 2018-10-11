@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// QuantitativeValueOrDistance as a QuantitativeValue.
         /// </summary>
         [DataMember(Name = "asQuantitativeValue")]
-        public QuantitativeValue AsQuantitativeValue;
+        public QuantitativeValue AsQuantitativeValue { get; set; }
 
         /// <summary>
         /// QuantitativeValueOrDistance as a Distance.
         /// </summary>
         [DataMember(Name = "asDistance")]
-        public Distance AsDistance;
+        public Distance AsDistance { get; set; }
 
         /// <summary>
         /// QuantitativeValueOrDistance as a QuantitativeValue.

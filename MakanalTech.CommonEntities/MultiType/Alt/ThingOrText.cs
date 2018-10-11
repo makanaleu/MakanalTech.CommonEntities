@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ThingOrText as a Thing.
         /// </summary>
         [DataMember(Name = "asThing")]
-        public Thing AsThing;
+        public Thing AsThing { get; set; }
 
         /// <summary>
         /// ThingOrText as a Thing.

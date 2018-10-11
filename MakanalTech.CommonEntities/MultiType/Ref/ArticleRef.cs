@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// ArticleRef as an Article.
         /// </summary>
         [DataMember(Name = "asArticle")]
-        public Article AsArticle;
+        public Article AsArticle { get; set; }
 
         /// <summary>
         /// ArticleRef as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// ArticleRef as an Article.

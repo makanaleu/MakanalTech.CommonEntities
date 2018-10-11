@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// SoftwareApplicationOrWebsite as a SoftwareApplication.
         /// </summary>
         [DataMember(Name = "asSoftwareApplication")]
-        public SoftwareApplication AsSoftwareApplication;
+        public SoftwareApplication AsSoftwareApplication { get; set; }
 
         /// <summary>
         /// SoftwareApplicationOrWebsite as a WebSite.
         /// </summary>
         [DataMember(Name = "asWebSite")]
-        public WebSite AsWebSite;
+        public WebSite AsWebSite { get; set; }
 
         /// <summary>
         /// SoftwareApplicationOrWebsite as a SoftwareApplication.

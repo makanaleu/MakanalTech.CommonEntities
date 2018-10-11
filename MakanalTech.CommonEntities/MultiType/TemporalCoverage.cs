@@ -18,19 +18,19 @@ namespace MakanalTech.CommonEntities.MultiType
         /// TemporalCoverage as a DateTime.
         /// </summary>
         [DataMember(Name = "asDateTime")]
-        public DateTime AsDateTime;
+        public DateTime AsDateTime { get; set; }
 
         /// <summary>
         /// TemporalCoverage as a TimePeriod.
         /// </summary>
         [DataMember(Name = "asTimePeriod")]
-        public Text AsTimePeriod;
+        public Text AsTimePeriod { get; set; }
 
         /// <summary>
         /// TemporalCoverage as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// TemporalCoverage as a DateTime.

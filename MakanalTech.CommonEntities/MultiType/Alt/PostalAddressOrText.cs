@@ -14,7 +14,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// PostalAddressOrText as a PostalAddress.
         /// </summary>
         [DataMember(Name = "asPostalAddress")]
-        public PostalAddress AsPostalAddress;
+        public PostalAddress AsPostalAddress { get; set; }
 
         /// <summary>
         /// PostalAddressOrText as a PostalAddress.

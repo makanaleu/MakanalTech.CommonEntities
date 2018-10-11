@@ -14,8 +14,8 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// CreativeWorkOrText as a CreativeWork.
         /// </summary>
         [DataMember(Name = "asCreativeWork")]
-        public CreativeWork AsCreativeWork;
-        
+        public CreativeWork AsCreativeWork { get; set; }
+
         /// <summary>
         /// CreativeWorkOrText as a CreativeWork.
         /// </summary>

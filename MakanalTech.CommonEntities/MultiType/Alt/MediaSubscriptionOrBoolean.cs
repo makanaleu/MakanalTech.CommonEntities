@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// MediaSubscriptionOrBoolean as a MediaSubscription.
         /// </summary>
         [DataMember(Name = "asMediaSubscription")]
-        public MediaSubscription AsMediaSubscription;
+        public MediaSubscription AsMediaSubscription { get; set; }
 
         /// <summary>
         /// MediaSubscriptionOrBoolean as a MediaSubscription.

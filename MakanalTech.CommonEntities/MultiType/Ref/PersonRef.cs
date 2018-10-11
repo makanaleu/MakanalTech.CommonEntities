@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// PersonRef as a Person.
         /// </summary>
         [DataMember(Name = "asPerson")]
-        public Person AsPerson;
+        public Person AsPerson { get; set; }
 
         /// <summary>
         /// PersonRef as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// PersonRef as a Person.

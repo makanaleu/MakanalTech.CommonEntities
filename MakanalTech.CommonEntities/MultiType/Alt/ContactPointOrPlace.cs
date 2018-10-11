@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ContactPointOrPlace as a ContactPoint.
         /// </summary>
         [DataMember(Name = "asContactPoint")]
-        public ContactPoint AsContactPoint;
+        public ContactPoint AsContactPoint { get; set; }
 
         /// <summary>
         /// ContactPointOrPlace as a Place.
         /// </summary>
         [DataMember(Name = "asPlace")]
-        public Place AsPlace;
+        public Place AsPlace { get; set; }
 
         /// <summary>
         /// ContactPointOrPlace as a ContactPoint.

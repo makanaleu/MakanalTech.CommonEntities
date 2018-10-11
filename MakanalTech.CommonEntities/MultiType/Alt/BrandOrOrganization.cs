@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// BrandOrOrganization as a Brand.
         /// </summary>
         [DataMember(Name = "asBrand")]
-        public Brand AsBrand;
+        public Brand AsBrand { get; set; }
 
         /// <summary>
         /// BrandOrOrganization as an Organization.
         /// </summary>
         [DataMember(Name = "asOrganization")]
-        public Organization AsOrganization;
+        public Organization AsOrganization { get; set; }
 
         /// <summary>
         /// BrandOrOrganization as a Brand.
