@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using MakanalTech.CommonEntities.DataType;
+using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.Core.Intangible
 {
@@ -20,13 +21,13 @@ namespace MakanalTech.CommonEntities.Core.Intangible
         /// </summary>
         /// <example>https://schema.org/ratingCount</example>
         [DataMember(Name = "ratingCount")]
-        public int RatingCount { get; set; }
+        public Number RatingCount { get; set; }
 
         /// <summary>
         /// The count of total number of reviews.
         /// </summary>
         /// <example>https://schema.org/reviewCount</example>
         [DataMember(Name = "reviewCount")]
-        public int ReviewCount { get; set; }
+        public Number ReviewCount { get; set; }
     }
 }
