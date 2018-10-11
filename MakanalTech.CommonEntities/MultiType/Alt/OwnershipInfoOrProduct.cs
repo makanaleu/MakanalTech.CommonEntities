@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// OwnershipInfoOrProduct as OwnershipInfo.
         /// </summary>
         [DataMember(Name = "asOwnershipInfo")]
-        public OwnershipInfo AsOwnershipInfo;
+        public OwnershipInfo AsOwnershipInfo { get; set; }
 
         /// <summary>
         /// OwnershipInfoOrProduct as a Product.
         /// </summary>
         [DataMember(Name = "asProduct")]
-        public Product AsProduct;
+        public Product AsProduct { get; set; }
 
         /// <summary>
         /// OwnershipInfoOrProduct as OwnershipInfo.

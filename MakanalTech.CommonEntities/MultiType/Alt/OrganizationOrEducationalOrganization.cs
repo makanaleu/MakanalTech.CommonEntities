@@ -20,13 +20,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// OrganizationOrEducationalOrganization as an Organization.
         /// </summary>
         [DataMember(Name = "asOrganization")]
-        public Organization AsOrganization;
+        public Organization AsOrganization { get; set; }
 
         /// <summary>
         /// OrganizationOrEducationalOrganization as an EducationalOrganization.
         /// </summary>
         [DataMember(Name = "asEducationalOrganization")]
-        public EducationalOrganization AsEducationalOrganization;
+        public EducationalOrganization AsEducationalOrganization { get; set; }
 
         /// <summary>
         /// OrganizationOrEducationalOrganization as an Organization.

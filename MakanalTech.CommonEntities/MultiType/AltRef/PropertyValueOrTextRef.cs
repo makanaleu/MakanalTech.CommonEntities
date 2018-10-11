@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// PropertyValueOrTextRef as a PropertyValue.
         /// </summary>
         [DataMember(Name = "asPropertyValue")]
-        public PropertyValue AsPropertyValue;
+        public PropertyValue AsPropertyValue { get; set; }
 
         /// <summary>
         /// PropertyValueOrTextRef as a TextRef.
         /// </summary>
         [DataMember(Name = "asTextRef")]
-        public TextRef AsTextRef;
+        public TextRef AsTextRef { get; set; }
 
         /// <summary>
         /// PropertyValueOrTextRef as a PropertyValue.

@@ -16,13 +16,13 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// DataFeedItemThingOrText as a DataFeedItem.
         /// </summary>
         [DataMember(Name = "asDataFeedItem")]
-        public DataFeedItem AsDataFeedItem;
+        public DataFeedItem AsDataFeedItem { get; set; }
 
         /// <summary>
         /// DataFeedItemThingOrText as a Thing.
         /// </summary>
         [DataMember(Name = "asThing")]
-        public Thing AsThing;
+        public Thing AsThing { get; set; }
 
         /// <summary>
         /// DataFeedItemThingOrText as a DataFeedItem.

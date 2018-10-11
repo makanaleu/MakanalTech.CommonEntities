@@ -15,19 +15,19 @@ namespace MakanalTech.CommonEntities.MultiType
         /// Area as an AdministrativeArea.
         /// </summary>
         [DataMember(Name = "asAdministrativeArea")]
-        public AdministrativeArea AsAdministrativeArea;
+        public AdministrativeArea AsAdministrativeArea { get; set; }
 
         /// <summary>
         /// Area as a GeoShape.
         /// </summary>
         [DataMember(Name = "asGeoShape")]
-        public GeoShape AsGeoShape;
+        public GeoShape AsGeoShape { get; set; }
 
         /// <summary>
         /// Area as a Place.
         /// </summary>
         [DataMember(Name = "asPlace")]
-        public Place AsPlace;
+        public Place AsPlace { get; set; }
 
         /// <summary>
         /// Area as an AdministrativeArea.

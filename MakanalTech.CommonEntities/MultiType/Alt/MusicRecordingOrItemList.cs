@@ -22,13 +22,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// MusicRecordingOrItemList as a MusicRecording.
         /// </summary>
         [DataMember(Name = "asMusicRecording")]
-        public MusicRecording AsMusicRecording;
+        public MusicRecording AsMusicRecording { get; set; }
 
         /// <summary>
         /// MusicRecordingOrItemList as a ItemList.
         /// </summary>
         [DataMember(Name = "asItemList")]
-        public ItemList AsItemList;
+        public ItemList AsItemList { get; set; }
 
         /// <summary>
         /// MusicRecordingOrItemList as a MusicRecording.

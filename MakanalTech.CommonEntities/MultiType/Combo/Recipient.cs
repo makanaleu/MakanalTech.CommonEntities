@@ -24,25 +24,25 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// Recipient as an Audience.
         /// </summary>
         [DataMember(Name = "asAudience")]
-        public Audience AsAudience;
+        public Audience AsAudience { get; set; }
 
         /// <summary>
         /// Recipient as an ContactPoint.
         /// </summary>
         [DataMember(Name = "asContactPoint")]
-        public ContactPoint AsContactPoint;
+        public ContactPoint AsContactPoint { get; set; }
 
         /// <summary>
         /// Recipient as an Organization.
         /// </summary>
         [DataMember(Name = "asOrganization")]
-        public Organization AsOrganization;
+        public Organization AsOrganization { get; set; }
 
         /// <summary>
         /// Recipient as an Person.
         /// </summary>
         [DataMember(Name = "asPerson")]
-        public Person AsPerson;
+        public Person AsPerson { get; set; }
 
         /// <summary>
         /// Recipient as an Audience.

@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// PropertyValueOrText as a PropertyValue.
         /// </summary>
         [DataMember(Name = "asPropertyValue")]
-        public PropertyValue AsPropertyValue;
+        public PropertyValue AsPropertyValue { get; set; }
 
         /// <summary>
         /// PropertyValueOrText as a PropertyValue.

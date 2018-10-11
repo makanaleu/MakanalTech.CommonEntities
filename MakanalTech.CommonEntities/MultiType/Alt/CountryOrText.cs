@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// CountryOrText as a Country.
         /// </summary>
         [DataMember(Name = "asCountry")]
-        public Country AsCountry;
+        public Country AsCountry { get; set; }
 
         /// <summary>
         /// CountryOrText as a Country.

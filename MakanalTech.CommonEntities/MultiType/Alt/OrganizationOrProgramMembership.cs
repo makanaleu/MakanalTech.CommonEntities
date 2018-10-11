@@ -20,13 +20,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// OrganizationOrProgramMembership as an Organization.
         /// </summary>
         [DataMember(Name = "asOrganization")]
-        public Organization AsOrganization;
+        public Organization AsOrganization { get; set; }
 
         /// <summary>
         /// OrganizationOrProgramMembership as a ProgramMembership.
         /// </summary>
         [DataMember(Name = "asProgramMembership")]
-        public ProgramMembership AsProgramMembership;
+        public ProgramMembership AsProgramMembership { get; set; }
 
         /// <summary>
         /// OrganizationOrProgramMembership as an Organization.

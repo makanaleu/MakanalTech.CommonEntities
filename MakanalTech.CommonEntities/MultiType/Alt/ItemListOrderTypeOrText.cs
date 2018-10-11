@@ -16,7 +16,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ItemListOrderTypeOrText as an ItemListOrderType.
         /// </summary>
         [DataMember(Name = "asItemListOrderType")]
-        public ItemListOrderType AsItemListOrderType;
+        public ItemListOrderType AsItemListOrderType { get; set; }
 
         /// <summary>
         /// ItemListOrderTypeOrText as an ItemListOrderType.

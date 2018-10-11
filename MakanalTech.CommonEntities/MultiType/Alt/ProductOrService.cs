@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// ProductOrService as a Product.
         /// </summary>
         [DataMember(Name = "asProduct")]
-        public Product AsProduct;
+        public Product AsProduct { get; set; }
 
         /// <summary>
         /// ProductOrService as a Service.
         /// </summary>
         [DataMember(Name = "asService")]
-        public Service AsService;
+        public Service AsService { get; set; }
 
         /// <summary>
         /// ProductOrService as a Product.

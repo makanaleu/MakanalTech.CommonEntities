@@ -23,19 +23,19 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// AudienceOrOgranizationOrPerson as an Audience.
         /// </summary>
         [DataMember(Name = "asAudience")]
-        public Audience AsAudience;
+        public Audience AsAudience { get; set; }
 
         /// <summary>
         /// AudienceOrOgranizationOrPerson as an Organization.
         /// </summary>
         [DataMember(Name = "asOrganization")]
-        public Organization AsOrganization;
+        public Organization AsOrganization { get; set; }
 
         /// <summary>
         /// AudienceOrOgranizationOrPerson as a Person.
         /// </summary>
         [DataMember(Name = "asPerson")]
-        public Person AsPerson;
+        public Person AsPerson { get; set; }
 
         /// <summary>
         /// AudienceOrOgranizationOrPerson as an Audience.

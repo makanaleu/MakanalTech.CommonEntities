@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// ThingOrTextRef as a Thing.
         /// </summary>
         [DataMember(Name = "asThing")]
-        public Thing AsThing;
+        public Thing AsThing { get; set; }
 
         /// <summary>
         /// ThingOrTextRef as a TextRef.
         /// </summary>
         [DataMember(Name = "asTextRef")]
-        public TextRef AsTextRef;
+        public TextRef AsTextRef { get; set; }
 
         /// <summary>
         /// ThingOrTextRef as a Thing.

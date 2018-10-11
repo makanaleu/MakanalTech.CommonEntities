@@ -16,13 +16,13 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// ListItemThingOrText as a ListItem.
         /// </summary>
         [DataMember(Name = "asListItem")]
-        public ListItem AsListItem;
+        public ListItem AsListItem { get; set; }
 
         /// <summary>
         /// ListItemThingOrText as a Thing.
         /// </summary>
         [DataMember(Name = "asThing")]
-        public Thing AsThing;
+        public Thing AsThing { get; set; }
 
         /// <summary>
         /// ListItemThingOrText as a ListItem.

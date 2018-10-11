@@ -15,13 +15,13 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// PlacePostalAddressOrText as a Place.
         /// </summary>
         [DataMember(Name = "asPlace")]
-        public Place AsPlace;
+        public Place AsPlace { get; set; }
 
         /// <summary>
         /// PlacePostalAddressOrText as a PostalAddress.
         /// </summary>
         [DataMember(Name = "asPostalAddress")]
-        public PostalAddress AsPostalAddress;
+        public PostalAddress AsPostalAddress { get; set; }
 
         /// <summary>
         /// PlacePostalAddressOrText as a Place.

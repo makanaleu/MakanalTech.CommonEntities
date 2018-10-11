@@ -14,7 +14,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// LanguageOrText as a Language.
         /// </summary>
         [DataMember(Name = "asLanguage")]
-        public Language AsLanguage;
+        public Language AsLanguage { get; set; }
 
         /// <summary>
         /// LanguageOrText as a Language.

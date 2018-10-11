@@ -15,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// GenderTypeOrText as a GenderType.
         /// </summary>
         [DataMember(Name = "asGenderType")]
-        public GenderType AsGenderType;
+        public GenderType AsGenderType { get; set; }
 
         /// <summary>
         /// GenderTypeOrText as a GenderType.

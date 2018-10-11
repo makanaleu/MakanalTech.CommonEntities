@@ -9,9 +9,9 @@
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://makanal.visualstudio.com/MakanalTech.CommonEntities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/makanaleu/MakanalTech.CommonEntities</RepositoryUrl>
-    <Version>1.0.0-rc.19</Version>
-    <AssemblyVersion>1.0.0.19</AssemblyVersion>
-    <FileVersion>1.0.0.19</FileVersion>
+    <Version>1.0.0-rc.20</Version>
+    <AssemblyVersion>1.0.0.20</AssemblyVersion>
+    <FileVersion>1.0.0.20</FileVersion>
     <ApplicationIcon />
     <Win32Resource />
     <Description>.Net Standard class library based on Schema.org objects.</Description>

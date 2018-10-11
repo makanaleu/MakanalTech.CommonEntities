@@ -21,13 +21,13 @@ namespace MakanalTech.CommonEntities.MultiType.Ref
         /// Image as an ImageObject.
         /// </summary>
         [DataMember(Name = "asImageObject")]
-        public ImageObject AsImageObject;
+        public ImageObject AsImageObject { get; set; }
 
         /// <summary>
         /// Image as a URL.
         /// </summary>
         [DataMember(Name = "asUrl")]
-        public URL AsUrl;
+        public URL AsUrl { get; set; }
 
         /// <summary>
         /// Image as an ImageObject.
