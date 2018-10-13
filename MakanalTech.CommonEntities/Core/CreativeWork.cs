@@ -202,7 +202,7 @@ namespace MakanalTech.CommonEntities.Core
         /// </remarks>
         /// <example>https://schema.org/commentCount</example>
         [DataMember(Name = "commentCount")]
-        public int CommentCount { get; set; }
+        public Number CommentCount { get; set; }
 
         /// <summary>
         /// The location depicted or described in the content. For example, the
@@ -239,7 +239,7 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/copyrightYear</example>
         [DataMember(Name = "copyrightYear")]
-        public int CopyrightYear { get; set; }
+        public Number CopyrightYear { get; set; }
 
         /// <summary>
         /// The creator/author of this CreativeWork. This is the same as the 

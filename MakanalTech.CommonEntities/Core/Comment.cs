@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using MakanalTech.CommonEntities.DataType;
+using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.Core
 {
@@ -16,7 +17,7 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/downvoteCount</example>
         [DataMember(Name = "downvoteCount")]
-        public int DownvoteCount { get; set; }
+        public Number DownvoteCount { get; set; }
 
         /// <summary>
         /// The parent of a question, answer or item in general.
@@ -31,6 +32,6 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/upvoteCount</example>
         [DataMember(Name = "upvoteCount")]
-        public int UpvoteCount { get; set; }
+        public Number UpvoteCount { get; set; }
     }
 }
