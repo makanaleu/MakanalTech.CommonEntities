@@ -27,7 +27,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// MonetaryAmountOrPriceSpecification as a PriceSpecification.
         /// </summary>
         [DataMember(Name = "asPriceSpecification")]
-        public PriceSpecification AsPriceSpecification;
+        public PriceSpecification AsPriceSpecification { get; set};
 
         /// <summary>
         /// MonetaryAmountOrPriceSpecification as a MonetaryAmount.
