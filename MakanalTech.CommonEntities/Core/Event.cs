@@ -185,7 +185,7 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/maximumAttendeeCapacity</example>
         [DataMember(Name = "maximumAttendeeCapacity")]
-        public int MaximumAttendeeCapacity { get; set; }
+        public Number MaximumAttendeeCapacity { get; set; }
 
         /// <summary>
         /// An offer to provide this item—for example, an offer to sell a 
@@ -250,7 +250,7 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/remainingAttendeeCapacity</example>
         [DataMember(Name = "remainingAttendeeCapacity")]
-        public int RemainingAttendeeCapacity { get; set; }
+        public Number RemainingAttendeeCapacity { get; set; }
 
         /// <summary>
         /// A review of the item.

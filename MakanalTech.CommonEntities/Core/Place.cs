@@ -181,7 +181,7 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/maximumAttendeeCapacity</example>
         [DataMember(Name = "maximumAttendeeCapacity")]
-        public int MaximumAttendeeCapacity { get; set; }
+        public Number MaximumAttendeeCapacity { get; set; }
 
         /// <summary>
         /// The opening hours of a certain place.
