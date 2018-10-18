@@ -16,7 +16,7 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string ApplicationKey { get; set; }
+        public string? ApplicationKey { get; set; }
 
         /// <summary>
         /// PropertyValueOrTextRef as a PropertyValue.

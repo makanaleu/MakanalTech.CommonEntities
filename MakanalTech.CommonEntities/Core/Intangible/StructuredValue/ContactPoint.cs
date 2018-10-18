@@ -17,7 +17,7 @@ namespace MakanalTech.CommonEntities.Core.Intangible.StructuredValue
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string ApplicationKey { get; set; }
+        public string? ApplicationKey { get; set; }
 
         /// <summary>
         /// The geographic area where a service or offered item is provided. 
