@@ -1,6 +1,7 @@
 ﻿using MakanalTech.CommonEntities.Core;
 using MakanalTech.CommonEntities.Core.Intangible;
 using MakanalTech.CommonEntities.Core.Intangible.StructuredValue;
+using System;
 using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.MultiType.Combo
@@ -18,7 +19,7 @@ namespace MakanalTech.CommonEntities.MultiType.Combo
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string? ApplicationKey { get; set; }
+        public Guid? ApplicationKey { get; set; }
 
         /// <summary>
         /// Recipient as an Audience.

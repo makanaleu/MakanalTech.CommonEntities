@@ -2,6 +2,7 @@
 using MakanalTech.CommonEntities.DataType;
 using MakanalTech.CommonEntities.MultiType;
 using MakanalTech.CommonEntities.MultiType.Alt;
+using System;
 using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.Core.Intangible.StructuredValue
@@ -17,7 +18,7 @@ namespace MakanalTech.CommonEntities.Core.Intangible.StructuredValue
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string? ApplicationKey { get; set; }
+        public Guid? ApplicationKey { get; set; }
 
         /// <summary>
         /// The geographic area where a service or offered item is provided. 

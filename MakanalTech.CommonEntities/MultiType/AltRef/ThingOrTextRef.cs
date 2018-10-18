@@ -1,5 +1,6 @@
 ﻿using MakanalTech.CommonEntities.Core;
 using MakanalTech.CommonEntities.MultiType.Ref;
+using System;
 using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.MultiType.AltRef
@@ -15,7 +16,7 @@ namespace MakanalTech.CommonEntities.MultiType.AltRef
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string? ApplicationKey { get; set; }
+        public Guid? ApplicationKey { get; set; }
 
         /// <summary>
         /// ThingOrTextRef as a Thing.

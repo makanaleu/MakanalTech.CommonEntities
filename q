@@ -1,0 +1,488 @@
+[33mcommit bc42d5a5b1603f52711381b10d9b0bc1e46e8deb[m[33m ([m[1;36mHEAD -> [m[1;32mIssue/ApplicationKey-AsGuid[m[33m)[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 18 18:05:41 2018 +0200
+
+    Change all ApplicationKey properties to Guid?
+    
+    https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/69
+    
+    Related Work Items: #69
+
+[33mcommit a2faed2090c15ecf3b4d8af0193376030a395754[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/Issue/ApplicationKey-AsGuid[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: e12cd5f 441cf63
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 18 15:43:48 2018 +0000
+
+    Merged PR 36: Change all ApplicationKey properties to nullable.
+    
+    Change all ApplicationKey properties to nullable.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/69
+    
+    Related Work Items: #69
+    
+    Related work items: #69
+
+[33mcommit 441cf63a28c0562e5944bba05f7f36173035f25a[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 18 17:43:00 2018 +0200
+
+    Change all ApplicationKey properties to nullable.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/69
+    
+    Related Work Items: #69
+
+[33mcommit e12cd5f9a136409bc75ed6fbbb6ebfbdc4f54770[m[33m ([m[1;33mtag: 1.0.0-rc.24[m[33m, [m[1;31mgithub/master[m[33m)[m
+Merge: 011c265 dfa404e
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 18 09:50:46 2018 +0000
+
+    Merged PR 34: Change Place Telephone type to Text.
+    
+    Change Place Telephone type to Text.
+    
+    Fix includes namespace changes in SpeakableSpecificationRef which appeared during rebuild.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/67
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #67
+
+[33mcommit dfa404e06f7f3262170675bf5d7cd2c588a5efa2[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 18 11:49:45 2018 +0200
+
+    Change Place Telephone type to Text.
+    
+    Fix includes namespace changes in SpeakableSpecificationRef which appeared during rebuild.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/67
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #67
+
+[33mcommit 011c265049d23daabc76bbb54ebb13ca884f4c50[m[33m ([m[1;33mtag: 1.0.0-rc.23[m[33m)[m
+Merge: 671e11c 4c39f5d
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 17:12:55 2018 +0000
+
+    Merged PR 33: Add property access in CreativeWorkRef
+    
+    Add property access in CreativeWorkRef
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/66
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related work items: #66
+
+[33mcommit 4c39f5db8d06bcf1ea12a271d3ef96e8c1108e01[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 19:12:24 2018 +0200
+
+    Add property access in CreativeWorkRef
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/66
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #66
+
+[33mcommit 671e11c4db8a703c2457b262287f736503c9faaf[m[33m ([m[1;33mtag: 1.0.0-rc.22[m[33m)[m
+Merge: 7648240 599c27d
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 16:29:23 2018 +0000
+
+    Merged PR 32: Fix syntax in MonetaryAmountOrPriceSpecification
+    
+    Fix syntax in MonetaryAmountOrPriceSpecification
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/65
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #65
+    
+    Related work items: #65
+
+[33mcommit 599c27d5a9358ae63391042624905a424807ee33[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 18:28:44 2018 +0200
+
+    Fix syntax in MonetaryAmountOrPriceSpecification
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/65
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #65
+
+[33mcommit 7648240fae609d55e939ff16b2b2441317ac509d[m
+Merge: bacb4e9 448bf84
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 16:27:00 2018 +0000
+
+    Merged PR 31: Add simple property access to MonetaryAmountOrPriceSpecification.
+    
+    Related work items: #65
+
+[33mcommit 448bf8429afb6ed5567f0264c0732444f107c54f[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 18:25:18 2018 +0200
+
+    Update version number.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/65
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #65
+
+[33mcommit 4a0177310162607737c995b83bbb84b7c3bd1784[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 18:21:42 2018 +0200
+
+    Add simple property access to MonetaryAmountOrPriceSpecification.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/65
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #65
+
+[33mcommit 401fb80328fc03dc180152d15899e0bf296826aa[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Oct 13 18:20:11 2018 +0200
+
+    Change multiple class properties from int to Number.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/65
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #65
+
+[33mcommit bacb4e9b507ba0c6cce02ec99d31db28a317e63b[m[33m ([m[1;33mtag: 1.0.0-rc.21[m[33m)[m
+Merge: 5fa28c5 8b6173a
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 11 16:03:10 2018 +0000
+
+    Merged PR 30: Change AggregateRating properties from int to Number.
+    
+    Change AggregateRating properties from int to Number.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/64
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #64
+    
+    Related work items: #64
+
+[33mcommit 8b6173a77966d82a32c30f6339e9f48600178be9[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 11 18:02:39 2018 +0200
+
+    Change AggregateRating properties from int to Number.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/64
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #64
+
+[33mcommit 5fa28c5fce39f8587d5362b3f8e6e57ead1ac87e[m[33m ([m[1;33mtag: 1.0.0-rc.20[m[33m)[m
+Merge: 697daa7 b2ff3df
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 11 13:40:23 2018 +0000
+
+    Merged PR 28: Add simple property access to MultiType classes.
+    
+    Add simple property access to MultiType classes.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/62
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #62
+    
+    Related work items: #62
+
+[33mcommit b2ff3df4c9b9f44322f7814a5c276fbabec9df44[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Thu Oct 11 15:39:46 2018 +0200
+
+    Add simple property access to MultiType classes.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/62
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #62
+
+[33mcommit 697daa7825b0f51f4fae33d8bc23794d8e5df494[m[33m ([m[1;33mtag: 1.0.0-rc.19[m[33m)[m
+Merge: 4ec1642 0ff0e0f
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 16:07:40 2018 +0000
+
+    Merged PR 27: Add ApplicationKey to Core base classes.
+    
+    Add ApplicationKey to Core base classes.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/61
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related work items: #61
+
+[33mcommit 0ff0e0fe479819b33cc29c4ae538bd3d88703cda[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 18:06:28 2018 +0200
+
+    Add ApplicationKey to Core base classes.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/61
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+
+[33mcommit 4ec1642e09d29be0a3f5ff239cce1502aad1d83a[m[33m ([m[1;33mtag: 1.0.0-rc.18[m[33m)[m
+Merge: 0de8e9b 4febba5
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 03:04:30 2018 +0000
+
+    Merged PR 26: Add getter and setter to base DataType class properties.
+    
+    Add getter and setter to base DataType class properties.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/60
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related work items: #60
+
+[33mcommit 4febba595360bc9096c65f79b2f9393878079a01[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 05:04:06 2018 +0200
+
+    Add getter and setter to base DataType class properties.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/60
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+
+[33mcommit 0de8e9bc728f024825acbff6506c596f7ee92801[m[33m ([m[1;33mtag: 1.0.0-rc.17[m[33m)[m
+Merge: 2e2d100 e4c0296
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 02:04:26 2018 +0000
+
+    Merged PR 25: Add ApplicationKey to Core.Thing.
+    
+    Related work items: #59
+
+[33mcommit e4c0296489a2e23bd2d6236dba9167f08c7cf12d[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 04:03:10 2018 +0200
+
+    Change Pending.MediaObject to public class.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/59
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+
+[33mcommit 146d7b3b25837a379657d0248987b9a06a4d22dd[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 04:02:22 2018 +0200
+
+    Add ApplicationKey to Core.Thing.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/59
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+
+[33mcommit 2e2d100ec156396d0f58c3d42c1d974ed66f919f[m[33m ([m[1;33mtag: 1.0.0-rc.16[m[33m)[m
+Merge: c8def9d 335ebf8
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 00:05:23 2018 +0000
+
+    Merged PR 24: Change Core.Event DataContract name.
+    
+    Change Core.Event DataContract name.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/58
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related work items: #58
+
+[33mcommit 335ebf85ca8dacdfcdbbe91aedcc891f120d561f[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 02:04:10 2018 +0200
+
+    Change Core.Event DataContract name.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/58
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+
+[33mcommit c8def9d77e8bc9ef6b0e650d4dee94b5d80ad902[m[33m ([m[1;33mtag: 1.0.0-rc.15[m[33m)[m
+Merge: 4658e90 d5689a2
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Sep 29 23:47:35 2018 +0000
+
+    Merged PR 23: Change Core.Comment to extend Thing.
+    
+    Change Core.Comment to extend Thing.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/57
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related work items: #57
+
+[33mcommit d5689a2a568b2c6178119768fbb7fa28f3f6e849[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sun Sep 30 01:46:37 2018 +0200
+
+    Change Core.Comment to extend Thing.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/57
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+
+[33mcommit 4658e9008c1e62f388d7562de2df40570eba6147[m[33m ([m[1;33mtag: 1.0.0-rc.14[m[33m)[m
+Merge: 2e069a8 a3e08b1
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Wed Sep 26 13:24:41 2018 +0000
+
+    Merged PR 19: Add public declaration to Listify.Intangible.ItemList.
+    
+    Add public declaration to Listify.Intangible.ItemList.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/53
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #53
+    
+    Related work items: #53
+
+[33mcommit a3e08b1dad277064e808f6ea884e1da66d70ddc5[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Wed Sep 26 15:23:58 2018 +0200
+
+    Add public declaration to Listify.Intangible.ItemList.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/53
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #53
+
+[33mcommit 2e069a84f20e0208f86f1f0e446adb69a836d80b[m[33m ([m[1;33mtag: 1.0.0-rc.13[m[33m)[m
+Merge: 374cba8 5ba73c2
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Wed Sep 26 13:06:29 2018 +0000
+
+    Merged PR 18: Add Listify.Intangible.ItemList
+    
+    Add Listify.Intangible.ItemList
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/53
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #53
+    
+    Related work items: #53
+
+[33mcommit 5ba73c23fc24b73a0749f3066d15a97c25761c42[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Wed Sep 26 15:05:40 2018 +0200
+
+    Add Listify.Intangible.ItemList
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/53
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #53
+
+[33mcommit 374cba85e80791bf43dbf57e03db44ad29016e45[m[33m ([m[1;33mtag: 1.0.0-rc.12[m[33m)[m
+Merge: c9f94b8 fa966a3
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Sep 22 18:11:00 2018 +0000
+
+    Merged PR 16: Update project links.
+    
+    Update project links.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/51
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #51
+    
+    Related work items: #51
+
+[33mcommit fa966a368670e140ae9da3fcdfc96d9996603974[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Sep 22 20:09:58 2018 +0200
+
+    Update project links.
+    
+    Issue: https://makanal.visualstudio.com/MakanalTech.CommonEntities/_workitems/edit/51
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #51
+
+[33mcommit c9f94b8b7e70988f5b0aa91605cc619258c9db5e[m[33m ([m[1;33mtag: 1.0.0-rc.11[m[33m)[m
+Merge: 207f16c b0e5a00
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Sep 22 15:18:19 2018 +0000
+
+    Merged PR 15: Update version.
+    
+    Update version.
+    
+    Issue: https://makanal.visualstudio.com/CommonEntities/_workitems/edit/51
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #51
+    
+    Related work items: #51
+
+[33mcommit b0e5a00a64e4e260b6892d8e98db71c442f17dad[m
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Sep 22 17:17:02 2018 +0200
+
+    Update version.
+    
+    Issue: https://makanal.visualstudio.com/CommonEntities/_workitems/edit/51
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #51
+
+[33mcommit 207f16cced775e25754f53d28d0479ddfea1a767[m
+Merge: 1080c3b a7f3413
+Author: Kane McConnell <kane@makanal.eu>
+Date:   Sat Sep 22 15:12:16 2018 +0000
+
+    Merged PR 14: Change default namespace to include company name.
+    
+    Change default namespace to include company name.
+    
+    Updated entire solution to add company name MakanalTech to namespace.
+    
+    Issue: https://makanal.visualstudio.com/CommonEntities/_workitems/edit/51
+    Signed-off-by: Kane McConnell <kane@makanal.eu>
+    CLA: f863b4f7bdee7d6997520ecaf537ddf0
+    
+    Related Work Items: #51
+    
+    Related work items: #51
