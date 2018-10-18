@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.DataType
 {
@@ -19,7 +20,7 @@ namespace MakanalTech.CommonEntities.DataType
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string? ApplicationKey { get; set; }
+        public Guid? ApplicationKey { get; set; }
 
         /// <summary>
         /// Data type: Text

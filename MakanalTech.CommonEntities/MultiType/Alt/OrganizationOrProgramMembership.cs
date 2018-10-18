@@ -1,4 +1,5 @@
 ﻿using MakanalTech.CommonEntities.Core;
+using System;
 using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.MultiType.Alt
@@ -14,7 +15,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string? ApplicationKey { get; set; }
+        public Guid? ApplicationKey { get; set; }
 
         /// <summary>
         /// OrganizationOrProgramMembership as an Organization.

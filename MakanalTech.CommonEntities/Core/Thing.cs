@@ -2,6 +2,7 @@
 using MakanalTech.CommonEntities.MultiType.Alt;
 using MakanalTech.CommonEntities.MultiType.AltRef;
 using MakanalTech.CommonEntities.MultiType.Ref;
+using System;
 using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.Core
@@ -33,7 +34,7 @@ namespace MakanalTech.CommonEntities.Core
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string? ApplicationKey { get; set; }
+        public Guid? ApplicationKey { get; set; }
 
         /// <summary>
         /// A description of the item.
