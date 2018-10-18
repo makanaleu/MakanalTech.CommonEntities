@@ -1,7 +1,7 @@
 ﻿using MakanalTech.CommonEntities.DataType;
 using System.Runtime.Serialization;
 
-namespace MakanalTech.CommonEntities.Pending.Intangible.StructuredValue
+namespace MakanalTech.CommonEntities.Pending.Intangible
 {
     /// <summary>
     /// A SpeakableSpecification indicates (typically via xpath or cssSelector)

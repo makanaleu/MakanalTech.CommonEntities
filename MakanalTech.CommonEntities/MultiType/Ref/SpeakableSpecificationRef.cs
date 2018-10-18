@@ -1,5 +1,5 @@
 ﻿using MakanalTech.CommonEntities.DataType;
-using MakanalTech.CommonEntities.Pending.Intangible.StructuredValue;
+using MakanalTech.CommonEntities.Pending.Intangible;
 using System.Runtime.Serialization;
 
 namespace MakanalTech.CommonEntities.MultiType.Ref
