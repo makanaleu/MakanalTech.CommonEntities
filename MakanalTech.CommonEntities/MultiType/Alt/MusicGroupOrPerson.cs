@@ -14,7 +14,7 @@ namespace MakanalTech.CommonEntities.MultiType.Alt
         /// data management environment where a key is required.
         /// </summary>
         [DataMember(Name = "applicationKey")]
-        public string ApplicationKey { get; set; }
+        public string? ApplicationKey { get; set; }
 
         /// <summary>
         /// MusicGroupOrPerson as a MusicGroup.
