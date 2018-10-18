@@ -253,6 +253,6 @@ namespace MakanalTech.CommonEntities.Core
         /// </summary>
         /// <example>https://schema.org/telephone</example>
         [DataMember(Name = "telephone")]
-        public Boolean Telephone { get; set; }
+        public Text Telephone { get; set; }
     }
 }
