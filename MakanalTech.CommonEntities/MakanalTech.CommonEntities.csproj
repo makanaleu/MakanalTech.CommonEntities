@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
@@ -6,12 +6,13 @@
     <Company>Makánal Technológia és Szoftver Fejlesztés Kft.</Company>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://makanal.visualstudio.com/MakanalTech.CommonEntities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/makanaleu/MakanalTech.CommonEntities</RepositoryUrl>
-    <Version>1.0.0-rc.26</Version>
-    <AssemblyVersion>1.0.0.26</AssemblyVersion>
-    <FileVersion>1.0.0.26</FileVersion>
+    <Version>1.0.0-rc.27</Version>
+    <AssemblyVersion>1.0.0.27</AssemblyVersion>
+    <FileVersion>1.0.0.27</FileVersion>
     <ApplicationIcon />
     <Win32Resource />
     <Description>.Net Standard class library based on Schema.org objects.</Description>
@@ -19,12 +20,15 @@
     <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\kane\OneDrive - Makánal\Code\CommonEntities\CommonEntities\CommonEntities.xml</DocumentationFile>
-  </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MakanalTech.CommonEntities.xml">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
   </ItemGroup>
 
 </Project>
